@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>首爾 9 天 8 夜親子自由行 🇰🇷</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background: linear-gradient(135deg, #fce4ec 0%, #f3e5f5 40%, #e8f5e9 100%);
+      min-height: 100vh;
+      color: #333;
+      padding-bottom: 48px;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #ff8a80 0%, #ce93d8 50%, #80cbc4 100%);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px 32px;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '🌸';
+      font-size: 80px;
+      position: absolute;
+      top: -10px; left: -10px;
+      opacity: .18;
+    }
+    header::after {
+      content: '🌸';
+      font-size: 80px;
+      position: absolute;
+      bottom: -10px; right: -10px;
+      opacity: .18;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      text-shadow: 0 2px 8px rgba(0,0,0,.2);
+      margin-bottom: 16px;
+    }
+    .trip-meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .meta-pill {
+      background: rgba(255,255,255,.28);
+      backdrop-filter: blur(4px);
+      border-radius: 999px;
+      padding: 6px 16px;
+      font-size: .85rem;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    /* ── Main layout ── */
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 16px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    /* ── Day card ── */
+    .day-card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 24px rgba(0,0,0,.08);
+      overflow: hidden;
+    }
+    .day-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 18px 20px;
+      color: #fff;
+    }
+    .day-num {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: .62rem;
+      font-weight: 700;
+      flex-shrink: 0;
+      line-height: 1.2;
+      border: 2px solid rgba(255,255,255,.5);
+    }
+    .day-num .n { font-size: 1.4rem; }
+    .day-title { flex: 1; }
+    .day-title h2 { font-size: 1rem; font-weight: 700; }
+    .day-title .date { font-size: .8rem; opacity: .85; margin-top: 2px; }
+
+    /* ── Timeline ── */
+    .timeline { list-style: none; padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 14px; }
+    .tl-item { display: flex; flex-direction: column; gap: 6px; }
+    .tl-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+    .time-tag {
+      font-size: .72rem;
+      font-weight: 700;
+      border-radius: 999px;
+      padding: 3px 10px;
+      white-space: nowrap;
+      color: #fff;
+    }
+    .time-am   { background: #81d4fa; }
+    .time-noon { background: #a5d6a7; }
+    .time-pm   { background: #ffcc80; }
+    .time-eve  { background: #f48fb1; }
+    .time-night{ background: #ce93d8; }
+    .time-all  { background: #80cbc4; }
+    .time-morn { background: #fff176; color: #777; }
+
+    .transport {
+      font-size: .72rem;
+      background: #f5f5f5;
+      color: #666;
+      border-radius: 999px;
+      padding: 3px 10px;
+    }
+
+    .desc { font-size: .88rem; line-height: 1.7; color: #444; padding-left: 2px; }
+    .desc strong { color: #333; }
+
+    /* sub-items (indented) */
+    .sub-list { list-style: none; padding: 6px 0 0 12px; display: flex; flex-direction: column; gap: 5px; }
+    .sub-list li { font-size: .84rem; color: #555; line-height: 1.6; position: relative; padding-left: 14px; }
+    .sub-list li::before { content: '▸'; position: absolute; left: 0; color: #bbb; }
+
+    /* dinner block */
+    .dinner-block {
+      background: linear-gradient(135deg, #fff8e1, #fff3cd);
+      border-left: 4px solid #ffb300;
+      border-radius: 10px;
+      padding: 10px 14px;
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+    }
+    .dinner-block .dinner-icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+    .dinner-block .dinner-text { font-size: .86rem; color: #555; line-height: 1.65; }
+    .dinner-block .dinner-text strong { color: #e65100; }
+
+    /* meals-in-park block */
+    .meals-block {
+      background: #f5f5f5;
+      border-radius: 10px;
+      padding: 8px 14px;
+      font-size: .84rem;
+      color: #666;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 480px) {
+      header h1 { font-size: 1.4rem; }
+      .day-header { padding: 14px 16px; }
+      .timeline { padding: 14px 16px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🇰🇷 首爾 9 天 8 夜親子自由行</h1>
+  <div class="trip-meta">
+    <span class="meta-pill">✈️ 2026年 7/18 – 7/26</span>
+    <span class="meta-pill">👨‍👩‍👦 2 大人 + 1 位 10 歲男孩</span>
+    <span class="meta-pill">🏨 首爾市區飯店（全程同一間）</span>
+    <span class="meta-pill">🚇 地鐵 · 包車 · 接駁車</span>
+  </div>
+</header>
+
+<main>
+
+  <!-- Day 1 -->
+  <section class="day-card">
+    <div class="day-header" style="background:linear-gradient(135deg,#ff8a80,#ff5252);">
+      <div class="day-num"><span class="n">1</span><span>DAY</span></div>
+      <div class="day-title">
+        <h2>抵達首爾、換錢與城市綠洲</h2>
+        <div class="date">7/18 週六</div>
+      </div>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-pm">下午</span>
+          <span class="transport">✈️ AREX 約 43 分鐘 → 地鐵/計程車 約 10-15 分鐘</span>
+        </div>
+        <p class="desc">抵達<strong>仁川國際機場</strong>，搭乘 AREX 或機場巴士前往首爾市區飯店辦理入住。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-eve">傍晚</span>
+          <span class="transport">🚶 步行約 5 分鐘</span>
+        </div>
+        <p class="desc">前往<strong>明洞商圈</strong>，於「大使館換錢所」或「一品香換錢所」兌換韓元。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-night">晚上</span>
+          <span class="transport">🚶 步行約 15 分鐘</span>
+        </div>
+        <p class="desc">前往<strong>清溪川</strong>（清溪廣場），沿著人工運河散步。</p>
+      </li>
+      <li class="tl-item">
+        <div class="dinner-block">
+          <span class="dinner-icon">🍽️</span>
+          <span class="dinner-text"><strong>晚餐推薦：滿足五香豬腳</strong>（米其林推薦，不辣偏甜，適合小孩）</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Day 2 -->
+  <section class="day-card">
+    <div class="day-header" style="background:linear-gradient(135deg,#ce93d8,#ab47bc);">
+      <div class="day-num"><span class="n">2</span><span>DAY</span></div>
+      <div class="day-title">
+        <h2>穿越古今與首爾百萬夜景</h2>
+        <div class="date">7/19 週日</div>
+      </div>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-am">上午</span>
+          <span class="transport">🚇 地鐵 3 號線至景福宮站，約 20-25 分鐘</span>
+        </div>
+        <p class="desc">參觀<strong>景福宮</strong>，全家租借韓服在古建築群中拍照留念。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-noon">中午</span>
+          <span class="transport">🚶 步行約 15 分鐘</span>
+        </div>
+        <p class="desc">步行至<strong>北村韓屋村</strong>漫步，欣賞傳統建築。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-pm">下午</span>
+          <span class="transport">🚶 步行或地鐵 1 號線至鐘路 5 街站，約 15-20 分鐘</span>
+        </div>
+        <p class="desc">前往<strong>廣藏市場</strong>品嚐道地小吃（可買不辣的綠豆煎餅與麻藥紫菜包飯）。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-night">晚上</span>
+          <span class="transport">🚇 地鐵 4 號線至明洞站 + 巴士至纜車站，約 30 分鐘</span>
+        </div>
+        <p class="desc">搭乘纜車登上<strong>南山首爾塔</strong>，從高處俯瞰首爾市區夜景。</p>
+      </li>
+      <li class="tl-item">
+        <div class="dinner-block">
+          <span class="dinner-icon">🍽️</span>
+          <span class="dinner-text"><strong>晚餐推薦：神仙雪濃湯</strong>（濃郁牛骨白湯搭配白飯，完全不辣）</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Day 3 -->
+  <section class="day-card">
+    <div class="day-header" style="background:linear-gradient(135deg,#80cbc4,#26a69a);">
+      <div class="day-num"><span class="n">3</span><span>DAY</span></div>
+      <div class="day-title">
+        <h2>暢遊愛寶樂園</h2>
+        <div class="date">7/20 週一</div>
+      </div>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-all">全天</span>
+          <span class="transport">🚌 官方接駁車從江南/三星站，約 1.5-2 小時</span>
+        </div>
+        <p class="desc">購買「門票 + 來回接駁車」套票，直達<strong>愛寶樂園</strong>。</p>
+        <ul class="sub-list">
+          <li>刺激遊樂設施 T-Express 等</li>
+          <li>Safari World 野生動物世界</li>
+          <li>Lost Valley（迷失峽谷）水陸兩用車，近距離觀看獅子與長頸鹿</li>
+        </ul>
+      </li>
+      <li class="tl-item">
+        <div class="meals-block">🍱 三餐於樂園內解決</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Day 4 -->
+  <section class="day-card">
+    <div class="day-header" style="background:linear-gradient(135deg,#81d4fa,#039be5);">
+      <div class="day-num"><span class="n">4</span><span>DAY</span></div>
+      <div class="day-title">
+        <h2>熱血闖關與醬蟹大餐</h2>
+        <div class="date">7/21 週二</div>
+      </div>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-am">上午</span>
+          <span class="transport">🚇 地鐵 3 號線至安國站，約 20-25 分鐘</span>
+        </div>
+        <p class="desc">前往仁寺洞的<strong>Running Man 體驗館</strong>或<strong>智勇迷宮</strong>，讓 10 歲男孩挑戰體能與解謎任務。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-noon">中午</span>
+          <span class="transport">🚶 步行，仁寺洞商圈內</span>
+        </div>
+        <p class="desc">仁寺洞商圈享用不辣的刀削麵或餃子湯。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-pm">下午</span>
+          <span class="transport">🚶 步行約 5-10 分鐘</span>
+        </div>
+        <p class="desc">觀賞<strong>塗鴉秀 (The Painters)</strong>，結合喜劇、舞蹈和繪畫的無語言互動表演。</p>
+      </li>
+      <li class="tl-item">
+        <div class="dinner-block">
+          <span class="dinner-icon">🦀</span>
+          <span class="dinner-text"><strong>晚餐推薦：真味食堂 / 大瓦房</strong>（地鐵約 15-20 分鐘）醬油螃蟹。大人吃極品生醃醬蟹，小孩吃不辣蒸蛋、烤魚或韓式拌飯。</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Day 5 -->
+  <section class="day-card">
+    <div class="day-header" style="background:linear-gradient(135deg,#ffcc80,#ffa726);">
+      <div class="day-num"><span class="n">5</span><span>DAY</span></div>
+      <div class="day-title">
+        <h2>江華島動感一日遊</h2>
+        <div class="date">7/22 週三</div>
+      </div>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-all">全天</span>
+          <span class="transport">🚗 包車，約 1.5-2 小時（車程約 65 公里）</span>
+        </div>
+        <p class="desc">報名首爾近郊的<strong>江華島包車一日遊</strong>。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-am">活動一</span>
+        </div>
+        <p class="desc"><strong>LUGE 斜坡滑車</strong>，享受乘風而下的刺激速度感。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-pm">活動二</span>
+          <span class="transport">🚗 包車移動，約 30-40 分鐘</span>
+        </div>
+        <p class="desc">永宗島<strong>海濱鐵道自行車（Rail Bike）</strong>，全家踩單車欣賞海岸風景。</p>
+      </li>
+      <li class="tl-item">
+        <div class="meals-block">🦞 三餐依包車行程安排，或於當地海鮮市場享用</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Day 6 -->
+  <section class="day-card">
+    <div class="day-header" style="background:linear-gradient(135deg,#a5d6a7,#43a047);">
+      <div class="day-num"><span class="n">6</span><span>DAY</span></div>
+      <div class="day-title">
+        <h2>全天暢玩一山 Onemount 水上世界</h2>
+        <div class="date">7/23 週四</div>
+      </div>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-all">全天</span>
+          <span class="transport">🚇 地鐵 3 號線至大化站，約 1 小時</span>
+        </div>
+        <p class="desc">前往<strong>一山 Onemount 水上樂園</strong>。建議早上 10:00 開門即入園，優先玩室外 50 公尺高滑水道。（平日人少！）</p>
+      </li>
+      <li class="tl-item">
+        <div class="dinner-block">
+          <span class="dinner-icon">🥩</span>
+          <span class="dinner-text"><strong>晚餐推薦：韓式烤肉</strong>（商圈周邊）點不辣的五花肉與調味排骨給小孩。</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Day 7 -->
+  <section class="day-card">
+    <div class="day-header" style="background:linear-gradient(135deg,#f48fb1,#e91e63);">
+      <div class="day-num"><span class="n">7</span><span>DAY</span></div>
+      <div class="day-title">
+        <h2>春川大自然探索</h2>
+        <div class="date">7/24 週五</div>
+      </div>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-all">全天</span>
+          <span class="transport">🚄 ITX 列車從龍山站，約 1 小時；或 🚗 包車約 1.5 小時</span>
+        </div>
+        <p class="desc">安排春川地區一日遊（建議報名當地一日遊團）。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-am">活動一</span>
+        </div>
+        <p class="desc"><strong>江村鐵道自行車</strong>，沿舊鐵道穿梭優美隧道。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-pm">活動二</span>
+        </div>
+        <p class="desc"><strong>南怡島</strong>（男孩可挑戰高空飛索 Zip-wire 入島），或前往<strong>羊駝牧場</strong>餵食草泥馬。</p>
+      </li>
+      <li class="tl-item">
+        <div class="dinner-block">
+          <span class="dinner-icon">🍗</span>
+          <span class="dinner-text"><strong>晚餐推薦：春川辣炒雞排</strong>。請店家客製「完全不辣」醬油口味給小朋友，大人另外加辣。</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Day 8 -->
+  <section class="day-card">
+    <div class="day-header" style="background:linear-gradient(135deg,#ffe082,#ffc107);">
+      <div class="day-num"><span class="n">8</span><span>DAY</span></div>
+      <div class="day-title">
+        <h2>汗蒸幕放鬆、購物與漢江野餐</h2>
+        <div class="date">7/25 週六</div>
+      </div>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-am">上午</span>
+          <span class="transport">🚇 地鐵 3 號線至大化站，約 1 小時</span>
+        </div>
+        <p class="desc">前往高陽市 <strong>Starfield 購物中心</strong>。大人在 <strong>AQUAFIELD 汗蒸幕</strong>享受雲朵房與戶外足浴；男孩在 <strong>Smob 室內運動遊樂園</strong>玩攀岩與高空滑索。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-pm">下午</span>
+        </div>
+        <p class="desc">於樂天超市或商場內採購伴手禮。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-night">晚上</span>
+          <span class="transport">🚗 計程車或包車，約 40-50 分鐘</span>
+        </div>
+        <p class="desc">前往盤浦<strong>漢江公園</strong>，買些原味炸雞野餐，並觀賞著名的<strong>月光彩虹噴泉</strong>。</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Day 9 -->
+  <section class="day-card">
+    <div class="day-header" style="background:linear-gradient(135deg,#b39ddb,#7e57c2);">
+      <div class="day-num"><span class="n">9</span><span>DAY</span></div>
+      <div class="day-title">
+        <h2>最後巡禮與滿載而歸</h2>
+        <div class="date">7/26 週日</div>
+      </div>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-morn">早上</span>
+        </div>
+        <p class="desc">飯店附近享用早餐，整理行李辦理退房。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-noon">中午/下午</span>
+          <span class="transport">✈️ AREX 機場快線從首爾站，約 43 分鐘</span>
+        </div>
+        <p class="desc">提早搭乘機場快線返回<strong>仁川國際機場</strong>。辦理退稅、逛免稅店，搭機平安返回！</p>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+</body>
+</html>
