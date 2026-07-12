@@ -3,60 +3,189 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>首爾 9 天 8 夜親子自由行 🇰🇷</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <title>🪄 首爾魔法小忌廉親子之旅 ✨</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cline x1='9' y1='15' x2='16' y2='4' stroke='%23c299fc' stroke-width='2.5' stroke-linecap='round'/%3E%3Cpath d='M16 1 L17.3 4 L20.5 5 L17.3 6 L16 9 L14.7 6 L11.5 5 L14.7 4 Z' fill='%23ffc93c'/%3E%3Cpath d='M5 15 L6 17.5 L8.5 18.5 L6 19.5 L5 22 L4 19.5 L1.5 18.5 L4 17.5 Z' fill='%23ff8fab'/%3E%3C/svg%3E" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+    :root {
+      --cream: #fff8f0;
+      --cream-2: #fff1e6;
+      --pink: #ffc9de;
+      --pink-deep: #ff8fab;
+      --lilac: #e2c9ff;
+      --lilac-deep: #c299fc;
+      --mint: #c3f5e0;
+      --mint-deep: #6fcf97;
+      --sky: #c6ecff;
+      --sky-deep: #6dd5ed;
+      --peach: #ffdfc1;
+      --peach-deep: #ffb347;
+      --lemon: #fff2b8;
+      --lemon-deep: #ffe066;
+      --rose: #ffc2d1;
+      --rose-deep: #ff6f91;
+      --gold: #ffe9a8;
+      --gold-deep: #ffc93c;
+      --ink: #6b5a68;
+      --ink-soft: #8a7a88;
+    }
+
+    html { scroll-behavior: smooth; }
+
     body {
       font-family: 'Noto Sans TC', sans-serif;
-      background: linear-gradient(135deg, #fce4ec 0%, #f3e5f5 40%, #e8f5e9 100%);
+      background:
+        radial-gradient(circle at 15% 20%, rgba(255,255,255,.9) 0%, transparent 2%),
+        radial-gradient(circle at 85% 15%, rgba(255,255,255,.9) 0%, transparent 2%),
+        radial-gradient(circle at 70% 45%, rgba(255,255,255,.8) 0%, transparent 1.6%),
+        radial-gradient(circle at 30% 65%, rgba(255,255,255,.8) 0%, transparent 1.6%),
+        radial-gradient(circle at 90% 80%, rgba(255,255,255,.9) 0%, transparent 2%),
+        radial-gradient(circle at 10% 85%, rgba(255,255,255,.8) 0%, transparent 1.8%),
+        linear-gradient(160deg, #fff0f6 0%, #fdf3ff 30%, #f0f4ff 60%, #fff8ec 100%);
+      background-attachment: fixed;
       min-height: 100vh;
-      color: #333;
-      padding-bottom: 48px;
+      color: var(--ink);
+      padding-bottom: 60px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* floating sparkles */
+    .sparkle {
+      position: fixed;
+      font-size: 1.3rem;
+      opacity: .55;
+      animation: float 7s ease-in-out infinite;
+      pointer-events: none;
+      z-index: 0;
+      filter: drop-shadow(0 0 4px rgba(255,255,255,.8));
+    }
+    .sparkle.s1 { top: 8%;  left: 6%;  animation-delay: 0s; }
+    .sparkle.s2 { top: 22%; right: 8%; animation-delay: 1.2s; font-size: 1rem; }
+    .sparkle.s3 { top: 55%; left: 3%;  animation-delay: 2.4s; font-size: 1.6rem; }
+    .sparkle.s4 { top: 75%; right: 5%; animation-delay: .8s; }
+    .sparkle.s5 { top: 40%; right: 15%; animation-delay: 3s; font-size: .9rem; }
+    .sparkle.s6 { top: 90%; left: 20%; animation-delay: 1.8s; }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(0deg); opacity: .4; }
+      50% { transform: translateY(-18px) rotate(15deg); opacity: .9; }
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: .3; transform: scale(.85); }
+      50% { opacity: 1; transform: scale(1.15); }
     }
 
     /* ── Header ── */
     header {
-      background: linear-gradient(135deg, #ff8a80 0%, #ce93d8 50%, #80cbc4 100%);
+      background: linear-gradient(135deg, var(--pink) 0%, var(--lilac) 45%, var(--sky) 100%);
       color: #fff;
       text-align: center;
-      padding: 40px 20px 32px;
+      padding: 52px 20px 40px;
       position: relative;
       overflow: hidden;
+      border-radius: 0 0 42% 42% / 0 0 60px 60px;
+      box-shadow: 0 8px 30px rgba(226,201,255,.35);
     }
-    header::before {
-      content: '🌸';
-      font-size: 80px;
+    header .deco-star {
       position: absolute;
-      top: -10px; left: -10px;
-      opacity: .18;
+      font-size: 1.1rem;
+      color: #fff;
+      animation: twinkle 2.6s ease-in-out infinite;
+      text-shadow: 0 0 6px rgba(255,255,255,.9);
     }
-    header::after {
-      content: '🌸';
-      font-size: 80px;
-      position: absolute;
-      bottom: -10px; right: -10px;
-      opacity: .18;
+    .hero-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 2;
     }
-    header h1 {
-      font-size: 1.8rem;
+    .mascot-hero {
+      width: 92px;
+      height: 92px;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: 50%;
+      border: 3px solid rgba(255,255,255,.8);
+      flex-shrink: 0;
+      filter: drop-shadow(0 6px 10px rgba(0,0,0,.15));
+      animation: float 4s ease-in-out infinite;
+    }
+    .hero-text { text-align: left; }
+
+    /* ── Magic Angel brand badge (logo wordmark) ── */
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255,255,255,.4);
+      border: 1.5px solid rgba(255,255,255,.7);
+      border-radius: 999px;
+      padding: 3px 14px 3px 10px;
+      margin-bottom: 8px;
+      font-family: 'Baloo 2', sans-serif;
       font-weight: 700;
-      text-shadow: 0 2px 8px rgba(0,0,0,.2);
-      margin-bottom: 16px;
+      font-size: .68rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #fff;
+      text-shadow: 0 1px 4px rgba(150,90,150,.4);
+    }
+    .brand-badge .icon-wand {
+      width: 15px;
+      height: 15px;
+      flex-shrink: 0;
+      animation: twinkle 2.2s ease-in-out infinite;
+    }
+    footer .brand-badge {
+      color: #b285d6;
+      text-shadow: none;
+      background: rgba(255,255,255,.6);
+      border-color: #ffd8e6;
+    }
+
+    .icon-inline {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.15em;
+      display: inline-block;
+    }
+
+    header h1 {
+      font-family: 'Baloo 2', 'Noto Sans TC', sans-serif;
+      font-size: 1.9rem;
+      font-weight: 700;
+      text-shadow: 0 2px 10px rgba(0,0,0,.15);
+      letter-spacing: .5px;
+    }
+    header .subtitle {
+      margin-top: 6px;
+      font-size: .92rem;
+      font-weight: 500;
+      opacity: .95;
+      letter-spacing: 1px;
     }
     .trip-meta {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 10px;
-      margin-top: 8px;
+      margin-top: 20px;
+      position: relative;
+      z-index: 2;
     }
     .meta-pill {
-      background: rgba(255,255,255,.28);
+      background: rgba(255,255,255,.35);
       backdrop-filter: blur(4px);
+      border: 1.5px solid rgba(255,255,255,.55);
       border-radius: 999px;
-      padding: 6px 16px;
+      padding: 7px 18px;
       font-size: .85rem;
       font-weight: 500;
       white-space: nowrap;
@@ -64,124 +193,327 @@
 
     /* ── Main layout ── */
     main {
-      max-width: 720px;
+      max-width: 740px;
       margin: 0 auto;
-      padding: 32px 16px 0;
+      padding: 40px 16px 0;
       display: flex;
       flex-direction: column;
-      gap: 28px;
+      gap: 34px;
+      position: relative;
+      z-index: 1;
     }
 
     /* ── Day card ── */
     .day-card {
-      background: #fff;
-      border-radius: 20px;
-      box-shadow: 0 4px 24px rgba(0,0,0,.08);
+      background: #fffdfb;
+      border-radius: 28px;
+      box-shadow: 0 10px 30px rgba(180,150,200,.15), 0 2px 6px rgba(180,150,200,.1);
       overflow: hidden;
+      border: 2px solid rgba(255,255,255,.7);
+      position: relative;
+    }
+    .day-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 28px;
+      pointer-events: none;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.4);
     }
     .day-header {
       display: flex;
       align-items: center;
-      gap: 14px;
-      padding: 18px 20px;
+      gap: 16px;
+      padding: 20px 22px;
       color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+    .day-header .glow {
+      position: absolute;
+      top: -30%; right: -10%;
+      width: 140px; height: 140px;
+      background: radial-gradient(circle, rgba(255,255,255,.55), transparent 70%);
+      border-radius: 50%;
     }
     .day-num {
-      width: 52px;
-      height: 52px;
-      border-radius: 50%;
-      background: rgba(255,255,255,.3);
+      width: 58px;
+      height: 58px;
+      border-radius: 42% 58% 58% 42% / 45% 45% 55% 55%;
+      background: rgba(255,255,255,.32);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      font-size: .62rem;
+      font-family: 'Baloo 2', sans-serif;
+      font-size: .6rem;
       font-weight: 700;
       flex-shrink: 0;
-      line-height: 1.2;
-      border: 2px solid rgba(255,255,255,.5);
+      line-height: 1.15;
+      border: 2px solid rgba(255,255,255,.6);
+      position: relative;
+      z-index: 1;
     }
-    .day-num .n { font-size: 1.4rem; }
-    .day-title { flex: 1; }
-    .day-title h2 { font-size: 1rem; font-weight: 700; }
-    .day-title .date { font-size: .8rem; opacity: .85; margin-top: 2px; }
+    .day-num .n { font-size: 1.5rem; }
+    .day-num::after {
+      content: '';
+      position: absolute;
+      top: -6px; right: -6px;
+      width: 20px; height: 20px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M12 2 14.5 9 22 9.5 16 14.5 18 22 12 17.5 6 22 8 14.5 2 9.5 9.5 9Z'/%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
+      filter: drop-shadow(0 1px 2px rgba(0,0,0,.2));
+      animation: twinkle 2.4s ease-in-out infinite;
+    }
+    .day-title { flex: 1; position: relative; z-index: 1; }
+    .day-title h2 { font-size: 1.05rem; font-weight: 700; }
+    .day-title .date { font-size: .8rem; opacity: .9; margin-top: 3px; }
+    .day-title .date::before { content: '📅 '; }
 
     /* ── Timeline ── */
-    .timeline { list-style: none; padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 14px; }
-    .tl-item { display: flex; flex-direction: column; gap: 6px; }
+    .timeline { list-style: none; padding: 18px 22px 22px; display: flex; flex-direction: column; gap: 16px; }
+    .tl-item { display: flex; flex-direction: column; gap: 7px; position: relative; padding-left: 4px; }
     .tl-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 
     .time-tag {
-      font-size: .72rem;
+      font-size: .74rem;
       font-weight: 700;
       border-radius: 999px;
-      padding: 3px 10px;
+      padding: 4px 12px;
       white-space: nowrap;
-      color: #fff;
+      color: #7a5a3a;
+      box-shadow: 0 2px 6px rgba(0,0,0,.06);
     }
-    .time-am   { background: #81d4fa; }
-    .time-noon { background: #a5d6a7; }
-    .time-pm   { background: #ffcc80; }
-    .time-eve  { background: #f48fb1; }
-    .time-night{ background: #ce93d8; }
-    .time-all  { background: #80cbc4; }
-    .time-morn { background: #fff176; color: #777; }
+    .time-am    { background: var(--sky); }
+    .time-noon  { background: var(--mint); }
+    .time-pm    { background: var(--peach); }
+    .time-eve   { background: var(--rose); }
+    .time-night { background: var(--lilac); }
+    .time-all   { background: var(--gold); }
+    .time-morn  { background: var(--lemon); }
+    .time-act   { background: #fff; border: 1.5px dashed var(--pink-deep); color: var(--pink-deep); }
 
     .transport {
-      font-size: .72rem;
-      background: #f5f5f5;
-      color: #666;
+      font-size: .74rem;
+      background: var(--cream-2);
+      color: #9a8a78;
       border-radius: 999px;
-      padding: 3px 10px;
+      padding: 4px 12px;
     }
+    .transport::before { content: '🚏 '; }
 
-    .desc { font-size: .88rem; line-height: 1.7; color: #444; padding-left: 2px; }
-    .desc strong { color: #333; }
+    .desc { font-size: .9rem; line-height: 1.75; color: #55464f; padding-left: 4px; }
+    .desc strong { color: #9b5de5; font-weight: 700; }
 
     /* sub-items (indented) */
-    .sub-list { list-style: none; padding: 6px 0 0 12px; display: flex; flex-direction: column; gap: 5px; }
-    .sub-list li { font-size: .84rem; color: #555; line-height: 1.6; position: relative; padding-left: 14px; }
-    .sub-list li::before { content: '▸'; position: absolute; left: 0; color: #bbb; }
+    .sub-list { list-style: none; padding: 6px 0 0 14px; display: flex; flex-direction: column; gap: 6px; }
+    .sub-list li { font-size: .85rem; color: #6a5a68; line-height: 1.65; position: relative; padding-left: 20px; }
+    .sub-list li::before { content: '✨'; position: absolute; left: 0; top: 0; font-size: .8rem; }
 
     /* dinner block */
     .dinner-block {
-      background: linear-gradient(135deg, #fff8e1, #fff3cd);
-      border-left: 4px solid #ffb300;
-      border-radius: 10px;
-      padding: 10px 14px;
+      background: linear-gradient(135deg, #fff2e0, #ffe8f0);
+      border: 1.5px solid #ffd8e6;
+      border-radius: 16px;
+      padding: 12px 16px;
       display: flex;
-      gap: 8px;
+      gap: 10px;
       align-items: flex-start;
+      position: relative;
     }
-    .dinner-block .dinner-icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
-    .dinner-block .dinner-text { font-size: .86rem; color: #555; line-height: 1.65; }
-    .dinner-block .dinner-text strong { color: #e65100; }
+    .dinner-block::after {
+      content: '🍰';
+      position: absolute;
+      top: -10px; right: 12px;
+      font-size: 1.1rem;
+    }
+    .dinner-block .dinner-icon { font-size: 1.2rem; flex-shrink: 0; margin-top: 1px; }
+    .dinner-block .dinner-text { font-size: .87rem; color: #6a5348; line-height: 1.7; }
+    .dinner-block .dinner-text strong { color: #e0668f; }
 
     /* meals-in-park block */
     .meals-block {
-      background: #f5f5f5;
-      border-radius: 10px;
-      padding: 8px 14px;
-      font-size: .84rem;
-      color: #666;
+      background: var(--cream-2);
+      border-radius: 14px;
+      padding: 10px 16px;
+      font-size: .85rem;
+      color: #8a7565;
+      border: 1.5px dashed #ffd9a8;
+    }
+
+    /* bus comparison table */
+    .magic-table-wrap { overflow-x: auto; border-radius: 16px; box-shadow: 0 4px 14px rgba(180,150,200,.15); }
+    table.magic-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .78rem;
+      background: #fff;
+      min-width: 560px;
+    }
+    table.magic-table th {
+      background: linear-gradient(135deg, var(--lilac), var(--pink));
+      color: #fff;
+      padding: 10px 12px;
+      text-align: left;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    table.magic-table td {
+      padding: 9px 12px;
+      border-bottom: 1px solid #f5e9f2;
+      color: #6a5a68;
+      line-height: 1.55;
+    }
+    table.magic-table tr:nth-child(even) td { background: #fffaf3; }
+    table.magic-table tr:last-child td { border-bottom: none; }
+
+    .recommend-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(135deg, var(--gold), var(--peach-deep));
+      color: #fff;
+      font-size: .82rem;
+      font-weight: 700;
+      border-radius: 999px;
+      padding: 6px 14px;
+      box-shadow: 0 3px 10px rgba(255,201,60,.35);
+    }
+    .recommend-badge::before { content: '⭐'; }
+
+    /* footer */
+    footer {
+      text-align: center;
+      margin-top: 10px;
+      padding: 30px 20px 0;
+      font-size: .85rem;
+      color: var(--ink-soft);
+      position: relative;
+      z-index: 1;
+    }
+    footer .line1 { font-family: 'Baloo 2', sans-serif; font-weight: 600; font-size: 1rem; color: #b285d6; margin-bottom: 6px; }
+    .mascot-footer {
+      width: 64px;
+      height: 64px;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: 50%;
+      border: 2.5px solid rgba(255,255,255,.85);
+      display: block;
+      margin: 0 auto 8px;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,.1));
     }
 
     /* ── Responsive ── */
     @media (max-width: 480px) {
-      header h1 { font-size: 1.4rem; }
-      .day-header { padding: 14px 16px; }
-      .timeline { padding: 14px 16px 18px; }
+      header h1 { font-size: 1.45rem; }
+      header { border-radius: 0 0 30% 30% / 0 0 40px 40px; }
+      .day-header { padding: 16px 18px; }
+      .timeline { padding: 16px 18px 20px; }
+      .sparkle { display: none; }
+      .hero-row { flex-direction: column; gap: 6px; }
+      .hero-text { text-align: center; }
+      .mascot-hero { width: 76px; }
     }
   </style>
 </head>
 <body>
 
+<svg style="position:absolute; width:0; height:0; overflow:hidden;" aria-hidden="true">
+  <defs>
+    <linearGradient id="gradCape" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2c9ff"/>
+      <stop offset="100%" stop-color="#ffc9de"/>
+    </linearGradient>
+    <linearGradient id="gradHair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff9fc0"/>
+      <stop offset="100%" stop-color="#ff6f91"/>
+    </linearGradient>
+    <linearGradient id="gradDress" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff2e0"/>
+      <stop offset="100%" stop-color="#ffd8e6"/>
+    </linearGradient>
+
+    <!-- Original "Magic Angel" mascot — an homage silhouette (not a reproduction of any copyrighted character art) -->
+    <symbol id="sym-magic-angel" viewBox="0 0 200 220">
+      <path d="M100 58 C 42 66, 18 138, 46 206 C 68 186, 132 186, 154 206 C 182 138, 158 66, 100 58 Z" fill="url(#gradCape)" opacity=".92"/>
+      <path d="M45 78 Q28 128 56 168" stroke="url(#gradHair)" stroke-width="15" fill="none" stroke-linecap="round"/>
+      <path d="M155 78 Q172 128 144 168" stroke="url(#gradHair)" stroke-width="15" fill="none" stroke-linecap="round"/>
+      <circle cx="45" cy="80" r="24" fill="url(#gradHair)"/>
+      <circle cx="155" cy="80" r="24" fill="url(#gradHair)"/>
+      <path d="M60 74 Q100 26 140 74 Q118 52 100 58 Q82 52 60 74 Z" fill="url(#gradHair)"/>
+      <circle cx="100" cy="86" r="37" fill="#fff8f0" stroke="#ffb6c1" stroke-width="3"/>
+      <ellipse cx="86" cy="89" rx="5" ry="7" fill="#6b5a68"/>
+      <ellipse cx="114" cy="89" rx="5" ry="7" fill="#6b5a68"/>
+      <ellipse cx="88" cy="86" rx="1.6" ry="2" fill="#fff"/>
+      <ellipse cx="116" cy="86" rx="1.6" ry="2" fill="#fff"/>
+      <ellipse cx="70" cy="98" rx="7" ry="4.2" fill="#ffc2d1" opacity=".8"/>
+      <ellipse cx="130" cy="98" rx="7" ry="4.2" fill="#ffc2d1" opacity=".8"/>
+      <path d="M91 103 Q100 109 109 103" fill="none" stroke="#e0668f" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M60 66 L63 72 L69 74 L63 76 L60 82 L57 76 L51 74 L57 72 Z" fill="#ffe066"/>
+      <path d="M74 124 Q100 113 126 124 L136 176 Q100 192 64 176 Z" fill="url(#gradDress)" stroke="#ff8fab" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="79" y="140" width="42" height="8" rx="4" fill="#ffd8e6"/>
+      <path d="M96 140 L100 135 L104 140 L100 149 Z" fill="#ffc93c"/>
+      <path d="M76 130 Q58 146 60 168" stroke="#fff8f0" stroke-width="11" fill="none" stroke-linecap="round"/>
+      <path d="M124 130 Q150 113 159 86" stroke="#fff8f0" stroke-width="11" fill="none" stroke-linecap="round"/>
+      <line x1="159" y1="86" x2="174" y2="48" stroke="#c299fc" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M174 32 L178.5 43 L190 46 L178.5 49 L174 60 L169.5 49 L158 46 L169.5 43 Z" fill="#ffe066" stroke="#ffc93c" stroke-width="1"/>
+      <ellipse cx="79" cy="187" rx="13" ry="7.5" fill="#e0668f"/>
+      <ellipse cx="121" cy="187" rx="13" ry="7.5" fill="#e0668f"/>
+      <path d="M27 40 L29.5 46 L36 48 L29.5 50 L27 56 L24.5 50 L18 48 L24.5 46 Z" fill="#ffe066"/>
+      <path d="M180 108 L181.6 112.5 L186 114 L181.6 115.5 L180 120 L178.4 115.5 L174 114 L178.4 112.5 Z" fill="#c299fc"/>
+      <path d="M20 150 L21.6 154.5 L26 156 L21.6 157.5 L20 162 L18.4 157.5 L14 156 L18.4 154.5 Z" fill="#6fcf97"/>
+    </symbol>
+
+    <symbol id="sym-star" viewBox="0 0 24 24">
+      <path d="M12 2 L14.5 9 L22 9.5 L16 14.5 L18 22 L12 17.5 L6 22 L8 14.5 L2 9.5 L9.5 9 Z" fill="currentColor"/>
+    </symbol>
+
+    <!-- magic wand icon -->
+    <symbol id="sym-wand" viewBox="0 0 24 24">
+      <line x1="4" y1="20" x2="16" y2="5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M16 1 L17.4 4.3 L20.7 5.5 L17.4 6.7 L16 10 L14.6 6.7 L11.3 5.5 L14.6 4.3 Z" fill="currentColor"/>
+      <path d="M5 14 L5.9 16.1 L8 17 L5.9 17.9 L5 20 L4.1 17.9 L2 17 L4.1 16.1 Z" fill="currentColor"/>
+    </symbol>
+
+    <!-- magic compact / locket icon -->
+    <symbol id="sym-compact" viewBox="0 0 24 24">
+      <circle cx="12" cy="13" r="9" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M12 2 L13.2 4.8 L16 6 L13.2 7.2 L12 10 L10.8 7.2 L8 6 L10.8 4.8 Z" fill="currentColor"/>
+      <path d="M12 8 L13.6 11.5 L17 13 L13.6 14.5 L12 18 L10.4 14.5 L7 13 L10.4 11.5 Z" fill="currentColor" opacity=".85"/>
+    </symbol>
+  </defs>
+</svg>
+
+<span class="sparkle s1">✨</span>
+<span class="sparkle s2">⭐</span>
+<span class="sparkle s3">🌟</span>
+<span class="sparkle s4">💫</span>
+<span class="sparkle s5">✨</span>
+<span class="sparkle s6">⭐</span>
+
 <header>
-  <h1>🇰🇷 首爾 9 天 8 夜親子自由行</h1>
+  <span class="deco-star" style="top:14%; left:12%;">✨</span>
+  <span class="deco-star" style="top:20%; right:16%; animation-delay:.6s;">⭐</span>
+  <span class="deco-star" style="top:70%; left:8%; animation-delay:1.2s;">💫</span>
+  <span class="deco-star" style="top:65%; right:10%; animation-delay:1.8s;">✨</span>
+  <div class="hero-row">
+    <img class="mascot-hero" src="pictures/images.jpeg" alt="奶油瑪米魔法天使 Logo" />
+    <div class="hero-text">
+      <span class="brand-badge">
+        <svg class="icon-wand" viewBox="0 0 24 24" aria-hidden="true"><use href="#sym-compact"/></svg>
+        奶油瑪米魔法天使 Creamy Mami, the Magic Angel（크리미 마미）
+        <svg class="icon-wand" viewBox="0 0 24 24" aria-hidden="true"><use href="#sym-compact"/></svg>
+      </span>
+      <h1>首爾魔法小忌廉親子之旅</h1>
+      <div class="subtitle">✨ 9 天 8 夜．甜蜜奇幻行程手帳 ✨</div>
+    </div>
+  </div>
   <div class="trip-meta">
-    <span class="meta-pill">✈️ 2026年 7/18 – 7/26</span>
+    <span class="meta-pill">🗓️ 2026年 7/18 – 7/26</span>
     <span class="meta-pill">👨‍👩‍👦 2 大人 + 1 位 10 歲男孩</span>
-    <span class="meta-pill">🏨 首爾市區飯店（全程同一間）</span>
+    <span class="meta-pill">🏨 HOMES Stay Myeongdong（全程同一間）</span>
     <span class="meta-pill">🚇 地鐵 · 包車 · 接駁車</span>
   </div>
 </header>
@@ -190,7 +522,8 @@
 
   <!-- Day 1 -->
   <section class="day-card">
-    <div class="day-header" style="background:linear-gradient(135deg,#ff8a80,#ff5252);">
+    <div class="day-header" style="background:linear-gradient(135deg,var(--pink),var(--pink-deep));">
+      <div class="glow"></div>
       <div class="day-num"><span class="n">1</span><span>DAY</span></div>
       <div class="day-title">
         <h2>抵達首爾、換錢與城市綠洲</h2>
@@ -200,29 +533,61 @@
     <ul class="timeline">
       <li class="tl-item">
         <div class="tl-top">
-          <span class="time-tag time-pm">下午</span>
-          <span class="transport">✈️ AREX 約 43 分鐘 → 地鐵/計程車 約 10-15 分鐘</span>
+          <span class="time-tag time-morn">08:45</span>
+          <span class="transport">✈️ HX628</span>
         </div>
-        <p class="desc">抵達<strong>仁川國際機場</strong>，搭乘 AREX 或機場巴士前往首爾市區飯店辦理入住。</p>
+        <p class="desc">由 <strong>香港國際機場 Hong Kong International Airport (홍콩국제공항) Terminal 2 (HKG)</strong> 起飛。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-noon">13:35</span>
+          <span class="transport">✈️ 抵達</span>
+        </div>
+        <p class="desc">抵達 <strong>仁川國際機場 Incheon International Airport (인천국제공항) 第 1 航廈 Terminal 1 (ICN)</strong>。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-pm">下午</span>
+          <span class="transport">🚌 機場巴士</span>
+        </div>
+        <p class="desc">辦理入境後，有兩條機場巴士可直達明洞，前往 <strong>HOMES Stay Myeongdong (명동)</strong>：</p>
+        <div class="magic-table-wrap">
+          <table class="magic-table">
+            <thead>
+              <tr><th>項目</th><th>方案 A：6001 號巴士</th><th>方案 B：6015 號巴士</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>票價</td><td>₩17,000 / 人</td><td>₩17,000 / 人</td></tr>
+              <tr><td>車程</td><td>約 70-80 分鐘</td><td>約 80 分鐘</td></tr>
+              <tr><td>路線</td><td>T1→龍山 Yongsan (용산)→三角地 Samgakji (삼각지)→南大門（會賢 Hoehyeon (회현)）→<strong>明洞 Myeongdong (명동)</strong>→忠武路 Chungmuro (충무로)→東大門 Dongdaemun (동대문)</td><td>T1→麻浦 Mapo (마포)→孔德 Gongdeok (공덕)→忠正路 Chungjeongno (충정로)→會賢 Hoehyeon (회현)→乙支路 Euljiro (을지로)→忠武路 Chungmuro (충무로)→<strong>明洞 Myeongdong (명동)</strong></td></tr>
+              <tr><td>班距</td><td>約 10-30 分鐘一班</td><td>班次較少</td></tr>
+              <tr><td>末班車（T1）</td><td>23:10</td><td>22:45</td></tr>
+              <tr><td>T1 上車地點</td><td>1F 5 號門</td><td>1F 5 號門</td></tr>
+              <tr><td>T2 上車地點</td><td>B1 29 號門</td><td>B1 32 號門</td></tr>
+              <tr><td>適合情況</td><td>班次密集、末班車較晚，靈活度高</td><td>途經麻浦/弘大區域，適合順路購物</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="desc" style="margin-top:4px;"><span class="recommend-badge">建議選 6001</span> 班次更密、末班車更晚（23:10），到明洞路線直接，下車後步行約 3-5 分鐘至飯店。辦理入住，放置行李後輕裝出發。</p>
       </li>
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-eve">傍晚</span>
           <span class="transport">🚶 步行約 5 分鐘</span>
         </div>
-        <p class="desc">前往<strong>明洞商圈</strong>，於「大使館換錢所」或「一品香換錢所」兌換韓元。</p>
+        <p class="desc">前往 <strong>明洞商圈 Myeongdong Shopping District (명동 쇼핑거리)</strong>，於「大使館換錢所 Daesagwan Money Exchange (대사관 환전소)」或「一品香換錢所 Ilpumhyang Money Exchange (일품향 환전소)」兌換韓元。</p>
       </li>
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-night">晚上</span>
           <span class="transport">🚶 步行約 15 分鐘</span>
         </div>
-        <p class="desc">前往<strong>清溪川</strong>（清溪廣場），沿著人工運河散步。</p>
+        <p class="desc">前往 <strong>清溪川 Cheonggyecheon Stream (청계천)</strong>（清溪廣場 Cheonggye Plaza (청계광장)），沿著人工運河散步。</p>
       </li>
       <li class="tl-item">
         <div class="dinner-block">
           <span class="dinner-icon">🍽️</span>
-          <span class="dinner-text"><strong>晚餐推薦：滿足五香豬腳</strong>（米其林推薦，不辣偏甜，適合小孩）</span>
+          <span class="dinner-text"><strong>晚餐推薦：滿足五香豬腳 Manjok Ohyang Jokbal (만족오향족발)</strong>（米其林推薦，不辣偏甜，適合小孩）</span>
         </div>
       </li>
     </ul>
@@ -230,7 +595,8 @@
 
   <!-- Day 2 -->
   <section class="day-card">
-    <div class="day-header" style="background:linear-gradient(135deg,#ce93d8,#ab47bc);">
+    <div class="day-header" style="background:linear-gradient(135deg,var(--lilac),var(--lilac-deep));">
+      <div class="glow"></div>
       <div class="day-num"><span class="n">2</span><span>DAY</span></div>
       <div class="day-title">
         <h2>穿越古今與首爾百萬夜景</h2>
@@ -241,35 +607,35 @@
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-am">上午</span>
-          <span class="transport">🚇 地鐵 3 號線至景福宮站，約 20-25 分鐘</span>
+          <span class="transport">地鐵 3 號線 Line 3 (3호선) 至 景福宮站 Gyeongbokgung Station (경복궁역)，約 20-25 分鐘</span>
         </div>
-        <p class="desc">參觀<strong>景福宮</strong>，全家租借韓服在古建築群中拍照留念。</p>
+        <p class="desc">參觀 <strong>景福宮 Gyeongbokgung Palace (경복궁)</strong>，全家租借韓服在古建築群中拍照留念。</p>
       </li>
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-noon">中午</span>
           <span class="transport">🚶 步行約 15 分鐘</span>
         </div>
-        <p class="desc">步行至<strong>北村韓屋村</strong>漫步，欣賞傳統建築。</p>
+        <p class="desc">步行至 <strong>北村韓屋村 Bukchon Hanok Village (북촌한옥마을)</strong> 漫步，欣賞傳統建築。</p>
       </li>
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-pm">下午</span>
-          <span class="transport">🚶 步行或地鐵 1 號線至鐘路 5 街站，約 15-20 分鐘</span>
+          <span class="transport">步行或地鐵 1 號線 Line 1 (1호선) 至 鐘路 5 街站 Jongno 5-ga Station (종로5가역)，約 15-20 分鐘</span>
         </div>
-        <p class="desc">前往<strong>廣藏市場</strong>品嚐道地小吃（可買不辣的綠豆煎餅與麻藥紫菜包飯）。</p>
+        <p class="desc">前往 <strong>廣藏市場 Gwangjang Market (광장시장)</strong> 品嚐道地小吃（可買不辣的綠豆煎餅與麻藥紫菜包飯）。</p>
       </li>
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-night">晚上</span>
-          <span class="transport">🚇 地鐵 4 號線至明洞站 + 巴士至纜車站，約 30 分鐘</span>
+          <span class="transport">地鐵 4 號線 Line 4 (4호선) 至 明洞站 Myeongdong Station (명동역) + 巴士/步行至纜車站，約 30 分鐘</span>
         </div>
-        <p class="desc">搭乘纜車登上<strong>南山首爾塔</strong>，從高處俯瞰首爾市區夜景。</p>
+        <p class="desc">搭乘纜車登上 <strong>南山首爾塔 N Seoul Tower (남산서울타워)</strong>，從高處俯瞰首爾市區夜景。</p>
       </li>
       <li class="tl-item">
         <div class="dinner-block">
           <span class="dinner-icon">🍽️</span>
-          <span class="dinner-text"><strong>晚餐推薦：神仙雪濃湯</strong>（濃郁牛骨白湯搭配白飯，完全不辣）</span>
+          <span class="dinner-text"><strong>晚餐推薦：神仙雪濃湯 Shinseon Seollongtang (신선설농탕)</strong>（濃郁牛骨白湯搭配白飯，完全不辣）</span>
         </div>
       </li>
     </ul>
@@ -277,53 +643,26 @@
 
   <!-- Day 3 -->
   <section class="day-card">
-    <div class="day-header" style="background:linear-gradient(135deg,#80cbc4,#26a69a);">
+    <div class="day-header" style="background:linear-gradient(135deg,var(--mint),var(--mint-deep));">
+      <div class="glow"></div>
       <div class="day-num"><span class="n">3</span><span>DAY</span></div>
       <div class="day-title">
-        <h2>暢遊愛寶樂園</h2>
+        <h2>熱血闖關與醬蟹大餐</h2>
         <div class="date">7/20 週一</div>
       </div>
     </div>
     <ul class="timeline">
       <li class="tl-item">
         <div class="tl-top">
-          <span class="time-tag time-all">全天</span>
-          <span class="transport">🚌 官方接駁車從江南/三星站，約 1.5-2 小時</span>
-        </div>
-        <p class="desc">購買「門票 + 來回接駁車」套票，直達<strong>愛寶樂園</strong>。</p>
-        <ul class="sub-list">
-          <li>刺激遊樂設施 T-Express 等</li>
-          <li>Safari World 野生動物世界</li>
-          <li>Lost Valley（迷失峽谷）水陸兩用車，近距離觀看獅子與長頸鹿</li>
-        </ul>
-      </li>
-      <li class="tl-item">
-        <div class="meals-block">🍱 三餐於樂園內解決</div>
-      </li>
-    </ul>
-  </section>
-
-  <!-- Day 4 -->
-  <section class="day-card">
-    <div class="day-header" style="background:linear-gradient(135deg,#81d4fa,#039be5);">
-      <div class="day-num"><span class="n">4</span><span>DAY</span></div>
-      <div class="day-title">
-        <h2>熱血闖關與醬蟹大餐</h2>
-        <div class="date">7/21 週二</div>
-      </div>
-    </div>
-    <ul class="timeline">
-      <li class="tl-item">
-        <div class="tl-top">
           <span class="time-tag time-am">上午</span>
-          <span class="transport">🚇 地鐵 3 號線至安國站，約 20-25 分鐘</span>
+          <span class="transport">地鐵 3 號線 Line 3 (3호선) 至 安國站 Anguk Station (안국역)，約 20-25 分鐘</span>
         </div>
-        <p class="desc">前往仁寺洞的<strong>Running Man 體驗館</strong>或<strong>智勇迷宮</strong>，讓 10 歲男孩挑戰體能與解謎任務。</p>
+        <p class="desc">前往 <strong>仁寺洞 Insadong (인사동)</strong> 的 <strong>Running Man 體驗館 Running Man Theme Park (런닝맨 체험관)</strong> 或 <strong>智勇迷宮 Escape Room (방탈출)</strong>，讓 10 歲男孩挑戰體能與解謎任務。</p>
       </li>
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-noon">中午</span>
-          <span class="transport">🚶 步行，仁寺洞商圈內</span>
+          <span class="transport">🚶 步行，仁寺洞商圈 Insadong District (인사동 상권) 內</span>
         </div>
         <p class="desc">仁寺洞商圈享用不辣的刀削麵或餃子湯。</p>
       </li>
@@ -332,20 +671,63 @@
           <span class="time-tag time-pm">下午</span>
           <span class="transport">🚶 步行約 5-10 分鐘</span>
         </div>
-        <p class="desc">觀賞<strong>塗鴉秀 (The Painters)</strong>，結合喜劇、舞蹈和繪畫的無語言互動表演。</p>
+        <p class="desc">觀賞 <strong>塗鴉秀 The Painters (더페인터즈)</strong>，結合喜劇、舞蹈和繪畫的無語言互動表演。</p>
       </li>
       <li class="tl-item">
         <div class="dinner-block">
           <span class="dinner-icon">🦀</span>
-          <span class="dinner-text"><strong>晚餐推薦：真味食堂 / 大瓦房</strong>（地鐵約 15-20 分鐘）醬油螃蟹。大人吃極品生醃醬蟹，小孩吃不辣蒸蛋、烤魚或韓式拌飯。</span>
+          <span class="dinner-text"><strong>晚餐推薦：真味食堂 Jinmi Siktang (진미식당)</strong> 或 <strong>大瓦房 Daewabang (대와방)</strong>（地鐵約 15-20 分鐘）醬油螃蟹。大人吃極品生醃醬蟹，小孩吃餐廳附的不辣蒸蛋、烤魚或韓式拌飯。</span>
         </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Day 4 -->
+  <section class="day-card">
+    <div class="day-header" style="background:linear-gradient(135deg,var(--sky),var(--sky-deep));">
+      <div class="glow"></div>
+      <div class="day-num"><span class="n">4</span><span>DAY</span></div>
+      <div class="day-title">
+        <h2>暢遊愛寶樂園</h2>
+        <div class="date">7/21 週二</div>
+      </div>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-morn">09:40</span>
+          <span class="transport">🚌 愛寶樂園官方接駁巴士</span>
+        </div>
+        <p class="desc">於 <strong>明洞站 Myeongdong Station (명동역) 3 號出口</strong>、<strong>明洞王子酒店 Myeongdong Prince Hotel (명동 프린스호텔)</strong> 前出發（購買「門票+來回接駁車」套票）。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-all">全天</span>
+        </div>
+        <p class="desc">抵達 <strong>愛寶樂園 Everland (에버랜드)</strong>，盡情暢玩一整天。</p>
+        <ul class="sub-list">
+          <li>必玩重點：刺激的遊樂設施</li>
+          <li><strong>Safari World 野生動物世界 (사파리월드)</strong></li>
+          <li><strong>Lost Valley 迷失峽谷 (로스트밸리)</strong> 搭乘水陸兩用車近距離觀看獅子與長頸鹿</li>
+        </ul>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-night">21:30</span>
+          <span class="transport">🚌 接駁巴士回程</span>
+        </div>
+        <p class="desc">從愛寶樂園搭乘接駁巴士回程，返回 <strong>明洞王子酒店 Myeongdong Prince Hotel (명동 프린스호텔)</strong> 前。</p>
+      </li>
+      <li class="tl-item">
+        <div class="meals-block">🍱 三餐於樂園內解決</div>
       </li>
     </ul>
   </section>
 
   <!-- Day 5 -->
   <section class="day-card">
-    <div class="day-header" style="background:linear-gradient(135deg,#ffcc80,#ffa726);">
+    <div class="day-header" style="background:linear-gradient(135deg,var(--peach),var(--peach-deep));">
+      <div class="glow"></div>
       <div class="day-num"><span class="n">5</span><span>DAY</span></div>
       <div class="day-title">
         <h2>江華島動感一日遊</h2>
@@ -356,32 +738,31 @@
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-all">全天</span>
-          <span class="transport">🚗 包車，約 1.5-2 小時（車程約 65 公里）</span>
+          <span class="transport">包車，約 1.5-2 小時，車程約 65 公里</span>
         </div>
-        <p class="desc">報名首爾近郊的<strong>江華島包車一日遊</strong>。</p>
+        <p class="desc">報名首爾近郊的 <strong>江華島 Ganghwa Island (강화도)</strong> 包車一日遊。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top"><span class="time-tag time-act">活動一</span></div>
+        <p class="desc"><strong>LUGE 斜坡滑車 Luge (루지)</strong>，享受乘風而下的刺激速度感。</p>
       </li>
       <li class="tl-item">
         <div class="tl-top">
-          <span class="time-tag time-am">活動一</span>
+          <span class="time-tag time-act">活動二</span>
+          <span class="transport">包車移動，約 30-40 分鐘</span>
         </div>
-        <p class="desc"><strong>LUGE 斜坡滑車</strong>，享受乘風而下的刺激速度感。</p>
+        <p class="desc"><strong>永宗島 Yeongjong Island (영종도)</strong> <strong>海濱鐵道自行車 Rail Bike (레일바이크)</strong>，全家踩單車欣賞海岸風景。</p>
       </li>
       <li class="tl-item">
-        <div class="tl-top">
-          <span class="time-tag time-pm">活動二</span>
-          <span class="transport">🚗 包車移動，約 30-40 分鐘</span>
-        </div>
-        <p class="desc">永宗島<strong>海濱鐵道自行車（Rail Bike）</strong>，全家踩單車欣賞海岸風景。</p>
-      </li>
-      <li class="tl-item">
-        <div class="meals-block">🦞 三餐依包車行程安排，或於當地海鮮市場享用</div>
+        <div class="meals-block">🦞 三餐依包車行程安排或於當地海鮮市場享用</div>
       </li>
     </ul>
   </section>
 
   <!-- Day 6 -->
   <section class="day-card">
-    <div class="day-header" style="background:linear-gradient(135deg,#a5d6a7,#43a047);">
+    <div class="day-header" style="background:linear-gradient(135deg,var(--lemon),var(--lemon-deep));">
+      <div class="glow"></div>
       <div class="day-num"><span class="n">6</span><span>DAY</span></div>
       <div class="day-title">
         <h2>全天暢玩一山 Onemount 水上世界</h2>
@@ -392,14 +773,17 @@
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-all">全天</span>
-          <span class="transport">🚇 地鐵 3 號線至大化站，約 1 小時</span>
+          <span class="transport">地鐵 3 號線 Line 3 (3호선) 至 大化站 Daehwa Station (대화역)，約 1 小時</span>
         </div>
-        <p class="desc">前往<strong>一山 Onemount 水上樂園</strong>。建議早上 10:00 開門即入園，優先玩室外 50 公尺高滑水道。（平日人少！）</p>
+        <p class="desc">全家搭乘地鐵至 <strong>注葉站 Juyeop Station (주엽역)</strong>，前往 <strong>一山 Onemount 水上樂園 Onemount Water Park (원마운트 워터파크)</strong>。</p>
+        <ul class="sub-list">
+          <li>避人潮策略：安排在週四平日，建議早上 10:00 一開門即入園，優先玩室外 50 公尺高滑水道。</li>
+        </ul>
       </li>
       <li class="tl-item">
         <div class="dinner-block">
           <span class="dinner-icon">🥩</span>
-          <span class="dinner-text"><strong>晚餐推薦：韓式烤肉</strong>（商圈周邊）點不辣的五花肉與調味排骨給小孩。</span>
+          <span class="dinner-text"><strong>晚餐推薦：韓式烤肉 Korean BBQ (한국식 바비큐)</strong>，在商圈周邊享用，點不辣的五花肉與調味排骨給小孩吃。</span>
         </div>
       </li>
     </ul>
@@ -407,7 +791,8 @@
 
   <!-- Day 7 -->
   <section class="day-card">
-    <div class="day-header" style="background:linear-gradient(135deg,#f48fb1,#e91e63);">
+    <div class="day-header" style="background:linear-gradient(135deg,var(--rose),var(--rose-deep));">
+      <div class="glow"></div>
       <div class="day-num"><span class="n">7</span><span>DAY</span></div>
       <div class="day-title">
         <h2>春川大自然探索</h2>
@@ -418,26 +803,22 @@
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-all">全天</span>
-          <span class="transport">🚄 ITX 列車從龍山站，約 1 小時；或 🚗 包車約 1.5 小時</span>
+          <span class="transport">ITX-청춘列車從 龍山站 Yongsan Station (용산역) 出發，約 1 小時；或包車，約 1.5 小時</span>
         </div>
-        <p class="desc">安排春川地區一日遊（建議報名當地一日遊團）。</p>
+        <p class="desc">安排 <strong>春川 Chuncheon (춘천)</strong> 地區一日遊（建議報名當地一日遊團）。</p>
       </li>
       <li class="tl-item">
-        <div class="tl-top">
-          <span class="time-tag time-am">活動一</span>
-        </div>
-        <p class="desc"><strong>江村鐵道自行車</strong>，沿舊鐵道穿梭優美隧道。</p>
+        <div class="tl-top"><span class="time-tag time-act">活動一</span></div>
+        <p class="desc"><strong>江村鐵道自行車 Gangchon Rail Bike (강촌레일바이크)</strong>，沿舊鐵道穿梭優美隧道。</p>
       </li>
       <li class="tl-item">
-        <div class="tl-top">
-          <span class="time-tag time-pm">活動二</span>
-        </div>
-        <p class="desc"><strong>南怡島</strong>（男孩可挑戰高空飛索 Zip-wire 入島），或前往<strong>羊駝牧場</strong>餵食草泥馬。</p>
+        <div class="tl-top"><span class="time-tag time-act">活動二</span></div>
+        <p class="desc"><strong>南怡島 Nami Island (남이섬)</strong>（男孩可挑戰高空飛索 Zip-wire (짚와이어) 入島），或前往 <strong>羊駝牧場 Alpaca World (알파카월드)</strong> 餵食草泥馬。</p>
       </li>
       <li class="tl-item">
         <div class="dinner-block">
           <span class="dinner-icon">🍗</span>
-          <span class="dinner-text"><strong>晚餐推薦：春川辣炒雞排</strong>。請店家客製「完全不辣」醬油口味給小朋友，大人另外加辣。</span>
+          <span class="dinner-text"><strong>晚餐推薦：春川辣炒雞排 Chuncheon Dakgalbi (춘천닭갈비)</strong>。請店家客製化「完全不辣」的醬油口味給小朋友，大人可另外加辣。</span>
         </div>
       </li>
     </ul>
@@ -445,10 +826,11 @@
 
   <!-- Day 8 -->
   <section class="day-card">
-    <div class="day-header" style="background:linear-gradient(135deg,#ffe082,#ffc107);">
+    <div class="day-header" style="background:linear-gradient(135deg,var(--gold),var(--gold-deep));">
+      <div class="glow"></div>
       <div class="day-num"><span class="n">8</span><span>DAY</span></div>
       <div class="day-title">
-        <h2>汗蒸幕放鬆、購物與漢江野餐</h2>
+        <h2>頂級汗蒸幕放鬆、商場購物與漢江野餐</h2>
         <div class="date">7/25 週六</div>
       </div>
     </div>
@@ -456,29 +838,28 @@
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-am">上午</span>
-          <span class="transport">🚇 地鐵 3 號線至大化站，約 1 小時</span>
+          <span class="transport">地鐵 3 號線 Line 3 (3호선) 至 大化站 Daehwa Station (대화역)，約 1 小時</span>
         </div>
-        <p class="desc">前往高陽市 <strong>Starfield 購物中心</strong>。大人在 <strong>AQUAFIELD 汗蒸幕</strong>享受雲朵房與戶外足浴；男孩在 <strong>Smob 室內運動遊樂園</strong>玩攀岩與高空滑索。</p>
+        <p class="desc">前往 <strong>高陽市 Starfield GOYANG (스타필드 고양)</strong> 購物中心。大人在 <strong>AQUAFIELD 汗蒸幕 Aquafield Sauna (아쿠아필드)</strong> 享受雲朵房與戶外足浴的頂級放鬆；男孩在商場內的 <strong>Smob 室內運動遊樂園 Smob Indoor Sports Park (스몹)</strong> 玩攀岩與高空滑索。</p>
       </li>
       <li class="tl-item">
-        <div class="tl-top">
-          <span class="time-tag time-pm">下午</span>
-        </div>
-        <p class="desc">於樂天超市或商場內採購伴手禮。</p>
+        <div class="tl-top"><span class="time-tag time-pm">下午</span></div>
+        <p class="desc">於 <strong>樂天超市 Lotte Mart (롯데마트)</strong> 或商場內採購伴手禮。</p>
       </li>
       <li class="tl-item">
         <div class="tl-top">
           <span class="time-tag time-night">晚上</span>
-          <span class="transport">🚗 計程車或包車，約 40-50 分鐘</span>
+          <span class="transport">計程車或包車，約 40-50 分鐘</span>
         </div>
-        <p class="desc">前往盤浦<strong>漢江公園</strong>，買些原味炸雞野餐，並觀賞著名的<strong>月光彩虹噴泉</strong>。</p>
+        <p class="desc">前往 <strong>盤浦 Banpo (반포)</strong> <strong>漢江公園 Hangang Park (한강공원)</strong>，買些原味炸雞野餐，並觀賞著名的 <strong>月光彩虹噴泉 Banpo Bridge Rainbow Fountain (반포대교 달빛무지개분수)</strong>。</p>
       </li>
     </ul>
   </section>
 
   <!-- Day 9 -->
   <section class="day-card">
-    <div class="day-header" style="background:linear-gradient(135deg,#b39ddb,#7e57c2);">
+    <div class="day-header" style="background:linear-gradient(135deg,var(--lilac-deep),#9b6fd1);">
+      <div class="glow"></div>
       <div class="day-num"><span class="n">9</span><span>DAY</span></div>
       <div class="day-title">
         <h2>最後巡禮與滿載而歸</h2>
@@ -487,22 +868,46 @@
     </div>
     <ul class="timeline">
       <li class="tl-item">
-        <div class="tl-top">
-          <span class="time-tag time-morn">早上</span>
-        </div>
+        <div class="tl-top"><span class="time-tag time-morn">早上</span></div>
         <p class="desc">飯店附近享用早餐，整理行李辦理退房。</p>
       </li>
       <li class="tl-item">
         <div class="tl-top">
-          <span class="time-tag time-noon">中午/下午</span>
-          <span class="transport">✈️ AREX 機場快線從首爾站，約 43 分鐘</span>
+          <span class="time-tag time-noon">中午前</span>
+          <span class="transport">AREX 機場快線 Airport Railroad Express (공항철도) 從 首爾站 Seoul Station (서울역)，約 43 分鐘</span>
         </div>
-        <p class="desc">提早搭乘機場快線返回<strong>仁川國際機場</strong>。辦理退稅、逛免稅店，搭機平安返回！</p>
+        <p class="desc"><span class="recommend-badge">建議 11:30 前出發</span> 預留充足時間辦理退稅及登機手續。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top"><span class="time-tag time-pm">機場</span></div>
+        <p class="desc">抵達 <strong>仁川國際機場 Incheon International Airport (인천국제공항) 第 1 航廈 Terminal 1</strong>，辦理退稅、逛免稅店 Duty-Free Shops (면세점)。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top">
+          <span class="time-tag time-morn">14:35</span>
+          <span class="transport">✈️ HX629</span>
+        </div>
+        <p class="desc">搭乘 <strong>HX629</strong> 由 <strong>仁川 ICN Terminal 1</strong> 起飛。</p>
+      </li>
+      <li class="tl-item">
+        <div class="tl-top"><span class="time-tag time-morn">17:40</span></div>
+        <p class="desc">抵達 <strong>香港國際機場 Hong Kong International Airport (홍콩국제공항) Terminal 1 (HKG)</strong>，滿載而歸。</p>
       </li>
     </ul>
   </section>
 
 </main>
+
+<footer>
+  <img class="mascot-footer" src="pictures/images.jpeg" alt="奶油瑪米魔法天使 Logo" />
+  <span class="brand-badge">
+    <svg class="icon-wand" viewBox="0 0 24 24" aria-hidden="true"><use href="#sym-compact"/></svg>
+    奶油瑪米魔法天使 Creamy Mami, the Magic Angel（크리미 마미）
+    <svg class="icon-wand" viewBox="0 0 24 24" aria-hidden="true"><use href="#sym-compact"/></svg>
+  </span>
+  <div class="line1">🪄✨ 祝旅途充滿魔法與甜蜜 ✨🪄</div>
+  <div>願這趟首爾之旅，如忌廉般柔軟美好 🍰💗</div>
+</footer>
 
 </body>
 </html>
