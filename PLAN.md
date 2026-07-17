@@ -1,7 +1,7 @@
 # 首爾 9 天 8 夜親子自由行行程表
 **旅遊日期：** 2026年 7 月 18 日 - 7 月 26 日
 **成員：** 2 位大人、1 位 10 歲男孩
-**住宿：** HOMES Stay Myeongdong（全程同一間）
+**住宿：** 7/18-7/20：鐘路設計師酒店 Hotel The Designers Jongno (호텔 더 디자이너스 종로)（地址：89-8, Supyo-ro, 鐘路區, 首爾, 韓國）／7/20-7/26：經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동)（地址：27 Namdaemun-ro, 中區, 04526 首爾, 韓國）
 **交通主力：** 地鐵、包車/接駁車
 
 ---
@@ -9,30 +9,18 @@
 ### 第 1 天：抵達首爾、換錢與城市綠洲 (7/18 週六)
 *   **08:45：** 搭乘 **HX628** 由 **香港國際機場 Hong Kong International Airport (홍콩국제공항) Terminal 2 (HKG)** 起飛。
 *   **13:35：** 抵達 **仁川國際機場 Incheon International Airport (인천국제공항) 第 1 航廈 Terminal 1 (ICN)**。
-*   **下午：** 辦理入境後，於入境大廳 1 樓 **6 號出口 Exit 6 (6번 출구)** 或 **11 號出口 Exit 11 (11번 출구)** 附近的 **WOWPASS 自助機 WOWPASS Kiosk (와우패스 키오스크)** 用手機 App 註冊並投入現金儲值，辦理 WOWPASS 卡，之後全程以此卡消費、換錢，免手續費。
-*   **下午：** 有兩條機場巴士可直達明洞，前往 **HOMES Stay Myeongdong (명동)**：
-
-    | 項目 | 方案 A：6001 號巴士 | 方案 B：6015 號巴士 |
-    |------|-------------------|-------------------|
-    | 票價 | ₩17,000 / 人 | ₩17,000 / 人 |
-    | 車程 | 約 70-80 分鐘 | 約 80 分鐘 |
-    | 路線 | T1→龍山 Yongsan (용산)→三角地 Samgakji (삼각지)→南大門（會賢 Hoehyeon (회현)）→**明洞 Myeongdong (명동)**→忠武路 Chungmuro (충무로)→東大門 Dongdaemun (동대문) | T1→麻浦 Mapo (마포)→孔德 Gongdeok (공덕)→忠正路 Chungjeongno (충정로)→會賢 Hoehyeon (회현)→乙支路 Euljiro (을지로)→忠武路 Chungmuro (충무로)→**明洞 Myeongdong (명동)** |
-    | 班距 | 約 10-30 分鐘一班 | 班次較少 |
-    | 末班車（T1）| 23:10 | 22:45 |
-    | T1 上車地點 | 1F 5 號門 | 1F 5 號門 |
-    | T2 上車地點 | B1 29 號門 | B1 32 號門 |
-    | 適合情況 | 班次密集、末班車較晚，靈活度高 | 途經麻浦/弘大區域，適合順路購物 |
-
-    **建議選 6001**：班次更密、末班車更晚（23:10），到明洞路線直接，下車後步行約 3-5 分鐘至飯店。辦理入住，放置行李後輕裝出發。
-*   **傍晚：** 前往 **明洞商圈 Myeongdong Shopping District (명동 쇼핑거리)** 逛街。
-*   **晚餐推薦：** 於 **明洞商圈 Myeongdong Shopping District (명동 쇼핑거리)** 享用不辣的韓式料理或炸雞，步行返回飯店即可。**清溪川 Cheonggyecheon Stream (청계천)** 散步可挪到其他天有空檔的傍晚再安排。
+*   **下午：** 辦理入境後，於入境大廳 1 樓 **2 號出口 Exit 2 (2번 출구)** 方向的 CU 便利店內 **WOWPASS 自助機 WOWPASS Kiosk (와우패스 키오스크)** 用手機 App 註冊並投入現金儲值，辦理 WOWPASS 卡，之後全程以此卡消費、換錢，免手續費。
+*   **下午：** 搭乘 **6002 號機場巴士 Airport Limousine Bus 6002 (공항리무진 6002번)**，於仁川機場 T1 1 樓 5 號門上車，直達 **鐘路3街站 Jongno 3-ga Station (종로3가역) 11 號出口**（票價 ₩17,000/人，班距約 17 分鐘一班，末班車 T1 23:10，車程約 60-75 分鐘）。下車後步行約 8-10 分鐘至飯店 **鐘路設計師酒店 Hotel The Designers Jongno (호텔 더 디자이너스 종로)**，全程免地鐵轉乘。辦理入住，放置行李後輕裝出發。
+*   **傍晚：** 步行或搭地鐵前往 **明洞商圈 Myeongdong Shopping District (명동 쇼핑거리)** 逛街。
+*   **晚餐推薦：** 於 **明洞商圈 Myeongdong Shopping District (명동 쇼핑거리)** 享用不辣的韓式料理或炸雞，步行或搭地鐵返回飯店即可。**清溪川 Cheonggyecheon Stream (청계천)** 散步可挪到其他天有空檔的傍晚再安排。
 
 **🚇 本日交通**
 
 | 出發點 | 目的地 | 交通 | 所需時間 |
 |--------|--------|------|----------|
-| 仁川國際機場 Incheon International Airport (인천국제공항) T1 | HOMES Stay Myeongdong (명동) | 🚌 6001 號機場巴士 | 約 70-80 分鐘 |
-| HOMES Stay Myeongdong (명동) | 明洞商圈 Myeongdong Shopping District (명동 쇼핑거리) | 🚶 步行 | 約 5 分鐘 |
+| 仁川國際機場 Incheon International Airport (인천국제공항) T1 | 鐘路設計師酒店 Hotel The Designers Jongno (호텔 더 디자이너스 종로) | 🚌 6002 號機場巴士（直達 鐘路3街站 Jongno 3-ga Station (종로3가역) 11 號出口）+ 🚶 步行至飯店 | 約 70-85 分鐘 |
+| 鐘路設計師酒店 Hotel The Designers Jongno (호텔 더 디자이너스 종로) | 明洞商圈 Myeongdong Shopping District (명동 쇼핑거리) | 🚶 步行 或 🚇 地鐵 3 號線轉 4 號線（忠武路站 Chungmuro Station (충무로역) 轉乘） | 約 15-20 分鐘（步行）／約 10-12 分鐘（地鐵） |
+| 明洞商圈 Myeongdong Shopping District (명동 쇼핑거리) | 鐘路設計師酒店 Hotel The Designers Jongno (호텔 더 디자이너스 종로) | 🚶 步行 或 🚇 地鐵 4 號線轉 3 號線（忠武路站 Chungmuro Station (충무로역) 轉乘） | 約 15-20 分鐘（步行）／約 10-12 分鐘（地鐵） |
 
 ---
 
@@ -44,11 +32,13 @@
 
 | 出發點 | 目的地 | 交通 | 所需時間 |
 |--------|--------|------|----------|
-| HOMES Stay Myeongdong (명동) | Olive Young 明洞 Town／Global Town (올리브영 명동타운／올리브영 명동 글로벌타운) | 🚶 步行 | 約 3-5 分鐘 |
+| 鐘路設計師酒店 Hotel The Designers Jongno (호텔 더 디자이너스 종로) | Olive Young 明洞 Town／Global Town (올리브영 명동타운／올리브영 명동 글로벌타운) | 🚶 步行 或 🚇 地鐵 3 號線轉 4 號線（忠武路站 Chungmuro Station (충무로역) 轉乘） | 約 15-20 分鐘（步行）／約 10-12 分鐘（地鐵） |
+| Olive Young 明洞 Town／Global Town (올리브영 명동타운／올리브영 명동 글로벌타운) | 鐘路設計師酒店 Hotel The Designers Jongno (호텔 더 디자이너스 종로) | 🚶 步行 或 🚇 地鐵 4 號線轉 3 號線（忠武路站 Chungmuro Station (충무로역) 轉乘） | 約 15-20 分鐘（步行）／約 10-12 分鐘（地鐵） |
 
 ---
 
 ### 第 3 天：穿越古今與聖水洞散策 (7/20 週一)
+*   **上午出發前：** 於 **鐘路設計師酒店 Hotel The Designers Jongno (호텔 더 디자이너스 종로)** 辦理退房，搭地鐵前往新住宿 **經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동)**（地址：27 Namdaemun-ro, 中區, 04526 首爾, 韓國）寄放行李／辦理 Check-in，之後輕裝展開今日行程（此後至 7/26 皆入住此酒店）。
 *   **上午：** 參觀 **景福宮 Gyeongbokgung Palace (경복궁)**，全家租借韓服在古建築群中拍照留念。
 *   **中午：** 步行至 **北村韓屋村 Bukchon Hanok Village (북촌한옥마을)** 漫步，欣賞傳統建築。
 *   **下午：** 前往 **廣藏市場 Gwangjang Market (광장시장)** 品嚐道地小吃（可買不辣的綠豆煎餅與麻藥紫菜包飯）。
@@ -59,11 +49,12 @@
 
 | 出發點 | 目的地 | 交通 | 所需時間 |
 |--------|--------|------|----------|
-| HOMES Stay Myeongdong (명동) | 景福宮 Gyeongbokgung Palace (경복궁) | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線轉 3 號線（忠武路站 Chungmuro Station (충무로역) 轉乘） | 約 20-25 分鐘 |
+| 鐘路設計師酒店 Hotel The Designers Jongno (호텔 더 디자이너스 종로) | 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 🚶 步行至 鐘路3街站 Jongno 3-ga Station (종로3가역) + 🚇 地鐵 3 號線轉 4 號線（忠武路站 Chungmuro Station (충무로역) 轉乘）+ 🚶 於 會賢站 Hoehyeon Station (회현역) 出站步行至酒店（辦理退房、寄放行李／Check-in） | 約 20-25 分鐘 |
+| 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 景福宮 Gyeongbokgung Palace (경복궁) | 🚶 步行至 會賢站 Hoehyeon Station (회현역) + 🚇 地鐵 4 號線轉 3 號線（忠武路站 Chungmuro Station (충무로역) 轉乘） | 約 20-25 分鐘 |
 | 景福宮 Gyeongbokgung Palace (경복궁) | 北村韓屋村 Bukchon Hanok Village (북촌한옥마을) | 🚶 步行 | 約 15 分鐘 |
 | 北村韓屋村 Bukchon Hanok Village (북촌한옥마을) | 廣藏市場 Gwangjang Market (광장시장) | 🚶 步行 或 🚇 地鐵 1 號線（鐘路 5 街站 Jongno 5-ga Station (종로5가역)） | 約 15-20 分鐘 |
 | 廣藏市場 Gwangjang Market (광장시장) | 聖水洞 Seongsu-dong (성수동) | 🚶 步行至 乙支路4街站 Euljiro 4-ga Station (을지로4가역) + 🚇 地鐵 2 號線至 聖水站 Seongsu Station (성수역) | 約 15-20 分鐘 |
-| 聖水洞 Seongsu-dong (성수동) | HOMES Stay Myeongdong (명동) | 🚇 地鐵 2 號線轉 4 號線（乙支路4街站 Euljiro 4-ga Station (을지로4가역) 轉乘）+ 🚶 步行 | 約 20-25 分鐘 |
+| 聖水洞 Seongsu-dong (성수동) | 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 🚇 地鐵 2 號線轉 4 號線（乙支路4街站 Euljiro 4-ga Station (을지로4가역) 轉乘）+ 🚶 步行至 會賢站 Hoehyeon Station (회현역) 出站後步行至酒店 | 約 20-25 分鐘 |
 
 ---
 
@@ -78,10 +69,10 @@
 
 | 出發點 | 目的地 | 交通 | 所需時間 |
 |--------|--------|------|----------|
-| HOMES Stay Myeongdong (명동) | 明洞站 Myeongdong Station (명동역) 3 號出口／明洞王子酒店 Myeongdong Prince Hotel (명동 프린스호텔) | 🚶 步行 | 約 3-5 分鐘 |
+| 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 明洞站 Myeongdong Station (명동역) 3 號出口／明洞王子酒店 Myeongdong Prince Hotel (명동 프린스호텔) | 🚶 步行 | 約 10-12 分鐘 |
 | 明洞站 Myeongdong Station (명동역) | 愛寶樂園 Everland (에버랜드) | 🚌 官方接駁巴士 | 約 1 小時 10 分鐘 |
 | 愛寶樂園 Everland (에버랜드) | 明洞王子酒店 Myeongdong Prince Hotel (명동 프린스호텔) | 🚌 官方接駁巴士 | 約 1 小時 10 分鐘 |
-| 明洞王子酒店 Myeongdong Prince Hotel (명동 프린스호텔) | HOMES Stay Myeongdong (명동) | 🚶 步行 | 約 3-5 分鐘 |
+| 明洞王子酒店 Myeongdong Prince Hotel (명동 프린스호텔) | 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 🚶 步行 | 約 10-12 分鐘 |
 
 ---
 
@@ -95,11 +86,11 @@
 
 | 出發點 | 目的地 | 交通 | 所需時間 |
 |--------|--------|------|----------|
-| HOMES Stay Myeongdong (명동) | 龍山站 Yongsan Station (용산역) | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線轉 1 號線（首爾站 Seoul Station (서울역) 轉乘） | 約 20-25 分鐘 |
+| 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 龍山站 Yongsan Station (용산역) | 🚶 步行至 會賢站 Hoehyeon Station (회현역) + 🚇 地鐵 4 號線轉 1 號線（首爾站 Seoul Station (서울역) 轉乘） | 約 15-20 分鐘 |
 | 龍山站 Yongsan Station (용산역) | 春川 Chuncheon (춘천) | 🚆 ITX-청춘列車（或全程包車） | 約 1 小時（包車約 1.5 小時） |
 | 春川市內各景點（江村鐵道自行車、南怡島／羊駝牧場） | 各景點間 | 🚐 一日遊團遊覽車接駁 | 依行程安排 |
 | 春川 Chuncheon (춘천) | 龍山站 Yongsan Station (용산역) | 🚆 ITX-청춘列車 | 約 1 小時 |
-| 龍山站 Yongsan Station (용산역) | HOMES Stay Myeongdong (명동) | 🚇 地鐵 1 號線轉 4 號線（首爾站 Seoul Station (서울역) 轉乘）+ 🚶 步行 | 約 20-25 分鐘 |
+| 龍山站 Yongsan Station (용산역) | 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 🚇 地鐵 1 號線轉 4 號線（首爾站 Seoul Station (서울역) 轉乘）+ 🚶 步行 | 約 15-20 分鐘 |
 
 ---
 
@@ -113,9 +104,9 @@
 
 | 出發點 | 目的地 | 交通 | 所需時間 |
 |--------|--------|------|----------|
-| HOMES Stay Myeongdong (명동) | 注葉站 Juyeop Station (주엽역)（一山 Onemount 水上樂園） | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線轉 3 號線（忠武路站 Chungmuro Station (충무로역) 轉乘，往 大化 Daehwa (대화) 方向）+ 🚶 步行 10-15 分鐘 | 約 1 小時 - 1 小時 15 分鐘 |
+| 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 注葉站 Juyeop Station (주엽역)（一山 Onemount 水上樂園） | 🚶 步行至 會賢站 Hoehyeon Station (회현역) + 🚇 地鐵 4 號線轉 3 號線（忠武路站 Chungmuro Station (충무로역) 轉乘，往 大化 Daehwa (대화) 方向）+ 🚶 步行 10-15 分鐘 | 約 1 小時 - 1 小時 15 分鐘 |
 | 一山 Onemount 水上樂園 (원마운트 워터파크) | 大化站 Daehwa Station (대화역)（Starfield GOYANG） | 🚶 步行返回 注葉站 Juyeop Station (주엽역) + 🚇 地鐵 3 號線一站 | 約 10-15 分鐘 + 2-3 分鐘 |
-| 大化站 Daehwa Station (대화역) | HOMES Stay Myeongdong (명동) | 🚇 地鐵 3 號線轉 4 號線（忠武路站 Chungmuro Station (충무로역) 轉乘）+ 🚶 步行 | 約 1 小時 - 1 小時 15 分鐘 |
+| 大化站 Daehwa Station (대화역) | 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 🚇 地鐵 3 號線轉 4 號線（忠武路站 Chungmuro Station (충무로역) 轉乘）+ 🚶 於 會賢站 Hoehyeon Station (회현역) 出站步行至酒店 | 約 1 小時 - 1 小時 15 分鐘 |
 
 ---
 
@@ -129,10 +120,10 @@
 
 | 出發點 | 目的地 | 交通 | 所需時間 |
 |--------|--------|------|----------|
-| HOMES Stay Myeongdong (명동) | 弘大入口站 Hongik University Station (홍대입구역)（延南洞） | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線轉 2 號線 + 🚶 3 號出口步行 5 分鐘 | 約 25-30 分鐘 |
+| 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 弘大入口站 Hongik University Station (홍대입구역)（延南洞） | 🚶 步行至 會賢站 Hoehyeon Station (회현역) + 🚇 地鐵 4 號線轉 2 號線 + 🚶 3 號出口步行 5 分鐘 | 約 25-30 分鐘 |
 | 延南洞 Yeonnam-dong (연남동) | 弘大商圈 Hongdae Shopping District (홍대 상권) | 🚶 步行 | 約 10 分鐘 |
 | 弘大商圈 Hongdae Shopping District (홍대 상권) | 獴貓朋友 Eden Meerkat Friends 弘大店 (미어캣프렌즈 홍대점) | 🚶 步行 | 約 5-10 分鐘 |
-| 弘大 Hongdae (홍대) | HOMES Stay Myeongdong (명동) | 🚇 地鐵 2 號線轉 4 號線 + 🚶 步行 | 約 25-30 分鐘 |
+| 弘大 Hongdae (홍대) | 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 🚇 地鐵 2 號線轉 4 號線 + 🚶 步行 | 約 25-30 分鐘 |
 
 ---
 
@@ -145,9 +136,9 @@
 
 | 出發點 | 目的地 | 交通 | 所需時間 |
 |--------|--------|------|----------|
-| HOMES Stay Myeongdong (명동) | 鷺梁津站 Noryangjin Station (노량진역) | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線轉 1 號線（首爾站 Seoul Station (서울역) 轉乘） | 約 25-30 分鐘 |
+| 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 鷺梁津站 Noryangjin Station (노량진역) | 🚶 步行至 會賢站 Hoehyeon Station (회현역) + 🚇 地鐵 4 號線轉 1 號線（首爾站 Seoul Station (서울역) 轉乘） | 約 20-25 分鐘 |
 | 鷺梁津水產市場 Noryangjin Fish Market (노량진수산시장) | 盤浦漢江公園 Banpo Hangang Park (반포한강공원) | 🚇 地鐵 或 🚕 計程車 | 約 15-20 分鐘 |
-| 盤浦漢江公園 Banpo Hangang Park (반포한강공원) | HOMES Stay Myeongdong (명동) | 🚕 計程車（建議，深夜地鐵班次較少）或 🚇 地鐵 3 號線轉 4 號線（忠武路站 Chungmuro Station (충무로역) 轉乘） | 約 15-20 分鐘（計程車）／約 35-40 分鐘（地鐵） |
+| 盤浦漢江公園 Banpo Hangang Park (반포한강공원) | 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 🚕 計程車（建議，深夜地鐵班次較少）或 🚇 地鐵 3 號線轉 4 號線（忠武路站 Chungmuro Station (충무로역) 轉乘，於 會賢站 Hoehyeon Station (회현역) 出站） | 約 15-20 分鐘（計程車）／約 30-35 分鐘（地鐵） |
 
 ---
 
@@ -162,5 +153,5 @@
 
 | 出發點 | 目的地 | 交通 | 所需時間 |
 |--------|--------|------|----------|
-| HOMES Stay Myeongdong (명동) | 首爾站 Seoul Station (서울역) | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線 | 約 5-10 分鐘 |
+| 經典住宿明洞酒店 The Stay Classic Hotel Myeongdong (더 스테이 클래식 호텔 명동) | 首爾站 Seoul Station (서울역) | 🚶 步行至 會賢站 Hoehyeon Station (회현역) + 🚇 地鐵 4 號線（一站至首爾站） | 約 8-10 分鐘 |
 | 首爾站 Seoul Station (서울역) | 仁川國際機場 Incheon International Airport (인천국제공항) T1 | 🚆 AREX 機場快線 Airport Railroad Express (공항철도) | 約 43 分鐘 |
