@@ -24,23 +24,46 @@
     | 適合情況 | 班次密集、末班車較晚，靈活度高 | 途經麻浦/弘大區域，適合順路購物 |
 
     **建議選 6001**：班次更密、末班車更晚（23:10），到明洞路線直接，下車後步行約 3-5 分鐘至飯店。辦理入住，放置行李後輕裝出發。
-*   **傍晚：** （步行，約 5 分鐘）前往 **明洞商圈 Myeongdong Shopping District (명동 쇼핑거리)** 逛街。
+*   **傍晚：** 前往 **明洞商圈 Myeongdong Shopping District (명동 쇼핑거리)** 逛街。
 *   **晚餐推薦：** 於 **明洞商圈 Myeongdong Shopping District (명동 쇼핑거리)** 享用不辣的韓式料理或炸雞，步行返回飯店即可。**清溪川 Cheonggyecheon Stream (청계천)** 散步可挪到其他天有空檔的傍晚再安排。
+
+**🚇 本日交通**
+
+| 出發點 | 目的地 | 交通 | 所需時間 |
+|--------|--------|------|----------|
+| 仁川國際機場 Incheon International Airport (인천국제공항) T1 | HOMES Stay Myeongdong (명동) | 🚌 6001 號機場巴士 | 約 70-80 分鐘 |
+| HOMES Stay Myeongdong (명동) | 明洞商圈 Myeongdong Shopping District (명동 쇼핑거리) | 🚶 步行 | 約 5 分鐘 |
 
 ---
 
 ### 第 2 天：Olive Young 明洞購物日 (7/19 週日)
-*   **全天：** （步行，明洞商圈內）前往 **Olive Young 明洞 Town／Global Town Olive Young Myeongdong Town／Global Town (올리브영 명동타운／올리브영 명동 글로벌타운)**，盡情採購韓妝、保養品與伴手禮，可辦理現場退稅。
+*   **全天：** 前往 **Olive Young 明洞 Town／Global Town Olive Young Myeongdong Town／Global Town (올리브영 명동타운／올리브영 명동 글로벌타운)**，盡情採購韓妝、保養品與伴手禮，可辦理現場退稅。
 *   **其餘時間：** 彈性自由活動，留白休息或依當下心情於明洞周邊隨興安排。
+
+**🚇 本日交通**
+
+| 出發點 | 目的地 | 交通 | 所需時間 |
+|--------|--------|------|----------|
+| HOMES Stay Myeongdong (명동) | Olive Young 明洞 Town／Global Town (올리브영 명동타운／올리브영 명동 글로벌타운) | 🚶 步行 | 約 3-5 分鐘 |
 
 ---
 
 ### 第 3 天：穿越古今與聖水洞散策 (7/20 週一)
-*   **上午：** （地鐵 3 號線 Line 3 (3호선) 至 景福宮站 Gyeongbokgung Station (경복궁역)，約 20-25 分鐘）參觀 **景福宮 Gyeongbokgung Palace (경복궁)**，全家租借韓服在古建築群中拍照留念。
-*   **中午：** （步行，約 15 分鐘）步行至 **北村韓屋村 Bukchon Hanok Village (북촌한옥마을)** 漫步，欣賞傳統建築。
-*   **下午：** （步行或地鐵 1 號線 Line 1 (1호선) 至 鐘路 5 街站 Jongno 5-ga Station (종로5가역)，約 15-20 分鐘）前往 **廣藏市場 Gwangjang Market (광장시장)** 品嚐道地小吃（可買不辣的綠豆煎餅與麻藥紫菜包飯）。
-*   **傍晚：** （步行至 乙支路4街站 Euljiro 4-ga Station (을지로4가역)，轉地鐵 2 號線 Line 2 (2호선) 至 聖水站 Seongsu Station (성수역)，約 15-20 分鐘）前往 **聖水洞 Seongsu-dong (성수동)**，走訪工業風選物店與特色咖啡廳（如 **大林倉庫 Daelim Warehouse (대림창고)**），接著到鄰近的 **首爾林 Seoul Forest (서울숲)** 讓小朋友近距離餵梅花鹿。
-*   **晚餐推薦：** 於 **聖水洞 Seongsu-dong (성수동)** 享用不辣的韓式烤肉或家庭式餐廳，再搭地鐵返回明洞飯店。
+*   **上午：** 參觀 **景福宮 Gyeongbokgung Palace (경복궁)**，全家租借韓服在古建築群中拍照留念。
+*   **中午：** 步行至 **北村韓屋村 Bukchon Hanok Village (북촌한옥마을)** 漫步，欣賞傳統建築。
+*   **下午：** 前往 **廣藏市場 Gwangjang Market (광장시장)** 品嚐道地小吃（可買不辣的綠豆煎餅與麻藥紫菜包飯）。
+*   **傍晚：** 前往 **聖水洞 Seongsu-dong (성수동)**，走訪工業風選物店與特色咖啡廳（如 **大林倉庫 Daelim Warehouse (대림창고)**），接著到鄰近的 **首爾林 Seoul Forest (서울숲)** 讓小朋友近距離餵梅花鹿。
+*   **晚餐推薦：** 於 **聖水洞 Seongsu-dong (성수동)** 享用不辣的韓式烤肉或家庭式餐廳。
+
+**🚇 本日交通**
+
+| 出發點 | 目的地 | 交通 | 所需時間 |
+|--------|--------|------|----------|
+| HOMES Stay Myeongdong (명동) | 景福宮 Gyeongbokgung Palace (경복궁) | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線轉 3 號線（忠武路站 Chungmuro Station (충무로역) 轉乘） | 約 20-25 分鐘 |
+| 景福宮 Gyeongbokgung Palace (경복궁) | 北村韓屋村 Bukchon Hanok Village (북촌한옥마을) | 🚶 步行 | 約 15 分鐘 |
+| 北村韓屋村 Bukchon Hanok Village (북촌한옥마을) | 廣藏市場 Gwangjang Market (광장시장) | 🚶 步行 或 🚇 地鐵 1 號線（鐘路 5 街站 Jongno 5-ga Station (종로5가역)） | 約 15-20 分鐘 |
+| 廣藏市場 Gwangjang Market (광장시장) | 聖水洞 Seongsu-dong (성수동) | 🚶 步行至 乙支路4街站 Euljiro 4-ga Station (을지로4가역) + 🚇 地鐵 2 號線至 聖水站 Seongsu Station (성수역) | 約 15-20 分鐘 |
+| 聖水洞 Seongsu-dong (성수동) | HOMES Stay Myeongdong (명동) | 🚇 地鐵 2 號線轉 4 號線（乙支路4街站 Euljiro 4-ga Station (을지로4가역) 轉乘）+ 🚶 步行 | 約 20-25 分鐘 |
 
 ---
 
@@ -51,42 +74,93 @@
 *   **21:30：** 從愛寶樂園搭乘接駁巴士回程，返回明洞王子酒店前。
 *   **三餐：** 於樂園內解決。
 
+**🚇 本日交通**
+
+| 出發點 | 目的地 | 交通 | 所需時間 |
+|--------|--------|------|----------|
+| HOMES Stay Myeongdong (명동) | 明洞站 Myeongdong Station (명동역) 3 號出口／明洞王子酒店 Myeongdong Prince Hotel (명동 프린스호텔) | 🚶 步行 | 約 3-5 分鐘 |
+| 明洞站 Myeongdong Station (명동역) | 愛寶樂園 Everland (에버랜드) | 🚌 官方接駁巴士 | 約 1 小時 10 分鐘 |
+| 愛寶樂園 Everland (에버랜드) | 明洞王子酒店 Myeongdong Prince Hotel (명동 프린스호텔) | 🚌 官方接駁巴士 | 約 1 小時 10 分鐘 |
+| 明洞王子酒店 Myeongdong Prince Hotel (명동 프린스호텔) | HOMES Stay Myeongdong (명동) | 🚶 步行 | 約 3-5 分鐘 |
+
 ---
 
 ### 第 5 天：春川大自然探索 (7/22 週三)
-*   **全天：** （ITX-청춘列車從 龍山站 Yongsan Station (용산역) 出發，約 1 小時；或包車，約 1.5 小時）安排 **春川 Chuncheon (춘천)** 地區一日遊（建議報名當地一日遊團）。
+*   **全天：** 安排 **春川 Chuncheon (춘천)** 地區一日遊（建議報名當地一日遊團，各景點間以遊覽車接駁往返）。
     *   **活動一：** **江村鐵道自行車 Gangchon Rail Bike (강촌레일바이크)**，沿舊鐵道穿梭優美隧道。
     *   **活動二：** **南怡島 Nami Island (남이섬)**（男孩可挑戰高空飛索 Zip-wire (짚와이어) 入島），或前往 **羊駝牧場 Alpaca World (알파카월드)** 餵食草泥馬。
 *   **晚餐推薦：** **春川辣炒雞排 Chuncheon Dakgalbi (춘천닭갈비)**。請店家客製化「完全不辣」的醬油口味給小朋友，大人可另外加辣。
 
+**🚇 本日交通**
+
+| 出發點 | 目的地 | 交通 | 所需時間 |
+|--------|--------|------|----------|
+| HOMES Stay Myeongdong (명동) | 龍山站 Yongsan Station (용산역) | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線轉 1 號線（首爾站 Seoul Station (서울역) 轉乘） | 約 20-25 分鐘 |
+| 龍山站 Yongsan Station (용산역) | 春川 Chuncheon (춘천) | 🚆 ITX-청춘列車（或全程包車） | 約 1 小時（包車約 1.5 小時） |
+| 春川市內各景點（江村鐵道自行車、南怡島／羊駝牧場） | 各景點間 | 🚐 一日遊團遊覽車接駁 | 依行程安排 |
+| 春川 Chuncheon (춘천) | 龍山站 Yongsan Station (용산역) | 🚆 ITX-청춘列車 | 約 1 小時 |
+| 龍山站 Yongsan Station (용산역) | HOMES Stay Myeongdong (명동) | 🚇 地鐵 1 號線轉 4 號線（首爾站 Seoul Station (서울역) 轉乘）+ 🚶 步行 | 約 20-25 分鐘 |
+
 ---
 
 ### 第 6 天：暢玩一山 Onemount 水上世界與 Starfield GOYANG 汗蒸幕 (7/23 週四)
-*   **上午：** （地鐵 3 號線 Line 3 (3호선) 至 大化站 Daehwa Station (대화역)，約 1 小時）全家搭乘地鐵至 **注葉站 Juyeop Station (주엽역)**，前往 **一山 Onemount 水上樂園 Onemount Water Park (원마운트 워터파크)**。
+*   **上午：** 全家搭乘地鐵，注葉站 2 號出口 Exit 2 (2번 출구) 出站後步行約 10-15 分鐘，前往 **一山 Onemount 水上樂園 Onemount Water Park (원마운트 워터파크)**。
     *   **避人潮策略：** 安排在週四平日，建議早上 10:00 一開門即入園，優先玩室外 50 公尺高滑水道。
-*   **下午：** （地鐵一站，回到 大化站 Daehwa Station (대화역)）前往鄰站的 **高陽市 Starfield GOYANG (스타필드 고양)** 購物中心。大人在 **AQUAFIELD 汗蒸幕 Aquafield Sauna (아쿠아필드)** 享受雲朵房與戶外足浴的頂級放鬆；男孩在商場內的 **Smob 室內運動遊樂園 Smob Indoor Sports Park (스몹)** 玩攀岩與高空滑索。也可順便於 **樂天超市 Lotte Mart (롯데마트)** 或商場內採購伴手禮。
+*   **下午：** 前往鄰站的 **高陽市 Starfield GOYANG (스타필드 고양)** 購物中心。大人在 **AQUAFIELD 汗蒸幕 Aquafield Sauna (아쿠아필드)** 享受雲朵房與戶外足浴的頂級放鬆；男孩在商場內的 **Smob 室內運動遊樂園 Smob Indoor Sports Park (스몹)** 玩攀岩與高空滑索。也可順便於 **樂天超市 Lotte Mart (롯데마트)** 或商場內採購伴手禮。
 *   **晚餐推薦：** 在 Starfield GOYANG 商場內或周邊享用 **韓式烤肉 Korean BBQ (한국식 바비큐)**，點不辣的五花肉與調味排骨給小孩吃。
+
+**🚇 本日交通**
+
+| 出發點 | 目的地 | 交通 | 所需時間 |
+|--------|--------|------|----------|
+| HOMES Stay Myeongdong (명동) | 注葉站 Juyeop Station (주엽역)（一山 Onemount 水上樂園） | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線轉 3 號線（忠武路站 Chungmuro Station (충무로역) 轉乘，往 大化 Daehwa (대화) 方向）+ 🚶 步行 10-15 分鐘 | 約 1 小時 - 1 小時 15 分鐘 |
+| 一山 Onemount 水上樂園 (원마운트 워터파크) | 大化站 Daehwa Station (대화역)（Starfield GOYANG） | 🚶 步行返回 注葉站 Juyeop Station (주엽역) + 🚇 地鐵 3 號線一站 | 約 10-15 分鐘 + 2-3 分鐘 |
+| 大化站 Daehwa Station (대화역) | HOMES Stay Myeongdong (명동) | 🚇 地鐵 3 號線轉 4 號線（忠武路站 Chungmuro Station (충무로역) 轉乘）+ 🚶 步行 | 約 1 小時 - 1 小時 15 分鐘 |
 
 ---
 
 ### 第 7 天：弘大悠閒購物與獴貓朋友 (7/24 週五)
 *   **上午：** 睡到自然醒，飯店附近悠閒用早餐，調節前幾天的體力。
-*   **中午：** （地鐵 4 號線轉 2 號線 Line 4→Line 2 (4호선→2호선) 至 弘大入口站 Hongik University Station (홍대입구역)，約 25-30 分鐘）出站後（3 號出口步行約 5 分鐘）先前往 **延南洞 Yeonnam-dong (연남동)**，沿 **京義線森林公園 Gyeongui Line Forest Park (경의선숲길)** 散策，逛特色選物店、咖啡廳，並在此享用午餐。
-*   **下午：** 步行返回 **弘大商圈 Hongdae Shopping District (홍대 상권)** 逛街、欣賞街頭藝人表演，接著前往 **獴貓朋友 Eden Meerkat Friends 弘大店 (미어캣프렌즈 홍대점)**（營業時間 13:30-20:00，門票約 ₩16,000/人），近距離接觸獴貓、狐獴、沙袋鼠等小動物，適合小朋友互動。
-*   **晚餐推薦：** 弘大周邊享用不辣的韓式料理或炸雞，再搭地鐵返回明洞飯店（約 25-30 分鐘）。
+*   **中午：** 出站後（3 號出口步行約 5 分鐘）先前往 **延南洞 Yeonnam-dong (연남동)**，沿 **京義線森林公園 Gyeongui Line Forest Park (경의선숲길)** 散策，逛特色選物店、咖啡廳，並在此享用午餐。
+*   **下午：** 返回 **弘大商圈 Hongdae Shopping District (홍대 상권)** 逛街、欣賞街頭藝人表演，接著前往 **獴貓朋友 Eden Meerkat Friends 弘大店 (미어캣프렌즈 홍대점)**（營業時間 13:30-20:00，門票約 ₩16,000/人），近距離接觸獴貓、狐獴、沙袋鼠等小動物，適合小朋友互動。
+*   **晚餐推薦：** 弘大周邊享用不辣的韓式料理或炸雞。
+
+**🚇 本日交通**
+
+| 出發點 | 目的地 | 交通 | 所需時間 |
+|--------|--------|------|----------|
+| HOMES Stay Myeongdong (명동) | 弘大入口站 Hongik University Station (홍대입구역)（延南洞） | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線轉 2 號線 + 🚶 3 號出口步行 5 分鐘 | 約 25-30 分鐘 |
+| 延南洞 Yeonnam-dong (연남동) | 弘大商圈 Hongdae Shopping District (홍대 상권) | 🚶 步行 | 約 10 分鐘 |
+| 弘大商圈 Hongdae Shopping District (홍대 상권) | 獴貓朋友 Eden Meerkat Friends 弘大店 (미어캣프렌즈 홍대점) | 🚶 步行 | 約 5-10 分鐘 |
+| 弘大 Hongdae (홍대) | HOMES Stay Myeongdong (명동) | 🚇 地鐵 2 號線轉 4 號線 + 🚶 步行 | 約 25-30 分鐘 |
 
 ---
 
 ### 第 8 天：鷺梁津海鮮午餐與漢江野餐 (7/25 週六)
-*   **中午：** （地鐵 1 號線 Line 1 (1호선) 或 9 號線 Line 9 (9호선) 至 鷺梁津站 Noryangjin Station (노량진역)）前往 **鷺梁津水產市場 Noryangjin Fish Market (노량진수산시장)**，樓下挑選現撈生魚片、帝王蟹等海鮮，樓上餐廳代客料理當作午餐。
+*   **中午：** 前往 **鷺梁津水產市場 Noryangjin Fish Market (노량진수산시장)**，樓下挑選現撈生魚片、帝王蟹等海鮮，樓上餐廳代客料理當作午餐。
 *   **下午：** 可於市場周邊或漢江邊稍作休息。
-*   **晚上：** （地鐵或計程車，約 15-20 分鐘）前往 **盤浦 Banpo (반포)** **漢江公園 Hangang Park (한강공원)**，買些原味炸雞野餐，並觀賞著名的 **月光彩虹噴泉 Banpo Bridge Rainbow Fountain (반포대교 달빛무지개분수)**。
+*   **晚上：** 前往 **盤浦 Banpo (반포)** **漢江公園 Hangang Park (한강공원)**，買些原味炸雞野餐，並觀賞著名的 **月光彩虹噴泉 Banpo Bridge Rainbow Fountain (반포대교 달빛무지개분수)**。
+
+**🚇 本日交通**
+
+| 出發點 | 目的地 | 交通 | 所需時間 |
+|--------|--------|------|----------|
+| HOMES Stay Myeongdong (명동) | 鷺梁津站 Noryangjin Station (노량진역) | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線轉 1 號線（首爾站 Seoul Station (서울역) 轉乘） | 約 25-30 分鐘 |
+| 鷺梁津水產市場 Noryangjin Fish Market (노량진수산시장) | 盤浦漢江公園 Banpo Hangang Park (반포한강공원) | 🚇 地鐵 或 🚕 計程車 | 約 15-20 分鐘 |
+| 盤浦漢江公園 Banpo Hangang Park (반포한강공원) | HOMES Stay Myeongdong (명동) | 🚕 計程車（建議，深夜地鐵班次較少）或 🚇 地鐵 3 號線轉 4 號線（忠武路站 Chungmuro Station (충무로역) 轉乘） | 約 15-20 分鐘（計程車）／約 35-40 分鐘（地鐵） |
 
 ---
 
 ### 第 9 天：最後巡禮與滿載而歸 (7/26 週日)
 *   **早上：** 飯店附近享用早餐，整理行李辦理退房。
-*   **中午前：** （AREX 機場快線 Airport Railroad Express (공항철도) 從 **首爾站 Seoul Station (서울역)**，約 43 分鐘）**建議 11:30 前出發**，預留充足時間辦理退稅及登機手續。
+*   **中午前：** **建議 11:30 前出發**，預留充足時間辦理退稅及登機手續。
 *   **機場：** 抵達 **仁川國際機場 Incheon International Airport (인천국제공항) 第 1 航廈 Terminal 1**，辦理退稅、逛免稅店 Duty-Free Shops (면세점)。
 *   **14:35：** 搭乘 **HX629** 由 **仁川 ICN Terminal 1** 起飛。
 *   **17:40：** 抵達 **香港國際機場 Hong Kong International Airport (홍콩국제공항) Terminal 1 (HKG)**，滿載而歸。
+
+**🚇 本日交通**
+
+| 出發點 | 目的地 | 交通 | 所需時間 |
+|--------|--------|------|----------|
+| HOMES Stay Myeongdong (명동) | 首爾站 Seoul Station (서울역) | 🚶 步行至 明洞站 Myeongdong Station (명동역) + 🚇 地鐵 4 號線 | 約 5-10 分鐘 |
+| 首爾站 Seoul Station (서울역) | 仁川國際機場 Incheon International Airport (인천국제공항) T1 | 🚆 AREX 機場快線 Airport Railroad Express (공항철도) | 約 43 分鐘 |
